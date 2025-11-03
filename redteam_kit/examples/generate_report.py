@@ -36,7 +36,7 @@ def main():
     generator = RedTeamReportGenerator(logger)
     
     # Set metadata
-    targets = args.targets or ["localhost"]
+    targets = args.targets or ["TARGET_IP_HERE"]  # Replace with actual target IPs
     generator.set_engagement_metadata(targets)
     
     # Load existing results or run tests

@@ -9,7 +9,7 @@ from core.modules.attack_chain import AttackChain, AttackStage
 
 def main():
     logger = FrameworkLogger("module_selection_demo")
-    target = "192.168.1.100"  # Replace with your target
+    target = "TARGET_IP_HERE"  # Replace with your target IP address
     chain = AttackChain(logger, target=target)
     
     print("=" * 60)

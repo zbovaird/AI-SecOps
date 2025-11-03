@@ -63,3 +63,19 @@ all_modules_test_results.json
 *_results.json
 reports/
 !reports/.gitkeep
+
+# Credential files (highly sensitive)
+*_decrypted_passwords.*
+*_credentials.*
+*_passwords.*
+firefox_decrypted_passwords.*
+
+# Test and debug files
+**/test_*.py
+**/test_*.sh
+**/debug_*.py
+**/debug_*.sh
+**/safe_test*.py
+**/safe_test*.sh
+**/minimal*.py
+**/simple*.py
