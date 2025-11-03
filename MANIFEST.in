@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include requirements.txt
+include install.sh
+include install.bat
+recursive-include redteam_kit *.py
+recursive-include redteam_kit *.md
+recursive-include redteam_kit *.json
+recursive-include redteam_kit *.sh
+recursive-exclude * __pycache__
+recursive-exclude * *.pyc
+recursive-exclude * *.pyo
+recursive-exclude * .DS_Store
+

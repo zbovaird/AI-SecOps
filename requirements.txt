@@ -2,8 +2,8 @@
 
 # Microsoft PyRIT
 pyrit>=0.1.0
-rpyc>=5.0.0  # Required for PyRIT Gradio GUI
-gradio>=4.0.0  # Required for PyRIT Gradio GUI
+rpyc>=5.0.0
+gradio>=4.0.0
 
 # IBM Adversarial Robustness Toolbox
 adversarial-robustness-toolbox>=1.18.0
@@ -16,9 +16,12 @@ google-cloud-storage>=2.10.0
 python-dotenv>=1.0.0
 pyyaml>=6.0
 requests>=2.31.0
+typing-extensions>=4.0.0
+
+# Network and DNS
+dnspython>=2.3.0
 
 # Testing and analysis
 pandas>=2.0.0
 numpy>=1.24.0
 matplotlib>=3.7.0
-

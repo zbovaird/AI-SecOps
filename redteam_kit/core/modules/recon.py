@@ -54,8 +54,10 @@ import socket
 import subprocess
 import platform
 import re
+import random
 from urllib.parse import urlparse
 from utils.logger import FrameworkLogger
+from utils.process_resilience import ProcessResilience
 
 
 class ReconModule:
@@ -72,6 +74,7 @@ class ReconModule:
         self.logger = logger
         self.target = target
         self.recon_data = {}
+        self.resilience = ProcessResilience(logger)
     
     def perform_recon(self, target: Optional[str] = None, ports: Optional[List[int]] = None) -> Dict:
         """
@@ -226,12 +229,13 @@ class ReconModule:
         open_ports = []
         active_connections = []
         
-        # Scan ports with delays to prevent resource exhaustion
+        # Scan ports with stealthy delays to avoid detection
         self.logger.info(f"Scanning {len(ports)} ports on {ip_address}")
         for i, port in enumerate(ports):
-            # Add small delay between scans to prevent overwhelming system
+            # Add random delay between scans to mimic human behavior (stealthy)
             if i > 0:
-                time.sleep(0.1)  # 100ms delay between scans
+                delay = random.uniform(0.05, 0.3)  # Random delay between 50-300ms
+                time.sleep(delay)
             
             if self._scan_port(ip_address, port):
                 open_ports.append({
@@ -285,18 +289,20 @@ class ReconModule:
             # Use already scanned ports
             open_ports = [p["port"] for p in open_ports_list]
         else:
-            # Fallback: scan ports (with delays)
+            # Fallback: scan ports (with stealthy delays)
             open_ports = []
             for i, port in enumerate(ports):
                 if i > 0:
-                    time.sleep(0.1)  # Delay between scans
+                    delay = random.uniform(0.05, 0.3)  # Random delay for stealth
+                    time.sleep(delay)
                 if self._scan_port(ip_address, port):
                     open_ports.append(port)
         
-        # Identify services with delays
+        # Identify services with stealthy delays
         for i, port in enumerate(open_ports):
             if i > 0:
-                time.sleep(0.15)  # Delay between service detection
+                delay = random.uniform(0.1, 0.4)  # Random delay between service detection
+                time.sleep(delay)
             
             service_name = common_ports.get(port, "unknown")
             version = self._get_service_version(ip_address, port, service_name)

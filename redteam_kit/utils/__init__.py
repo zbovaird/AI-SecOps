@@ -1,6 +1,1 @@
-"""
-Red Team Testing Kit - Utilities
-"""
-
-__all__ = ['logger', 'config_loader']
-
+# Empty init file for utils package
