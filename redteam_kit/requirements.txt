@@ -1,0 +1,14 @@
+# Red Team Testing Kit Requirements
+
+# Core dependencies
+asyncio>=3.4.3
+typing-extensions>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Optional: For advanced features
+# cryptography>=41.0.0  # For encoding/encryption
+# requests>=2.31.0      # For API testing
+
