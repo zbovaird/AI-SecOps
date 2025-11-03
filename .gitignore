@@ -44,6 +44,8 @@ Thumbs.db
 
 # Logs
 *.log
+redteam_kit/logs/*.log
+!redteam_kit/logs/.gitkeep
 
 # Database files (if any)
 *.db
@@ -79,3 +81,5 @@ firefox_decrypted_passwords.*
 **/safe_test*.sh
 **/minimal*.py
 **/simple*.py
+# Exception: Keep production security test examples
+!redteam_kit/examples/test_system_prompt_jailbreak.py
