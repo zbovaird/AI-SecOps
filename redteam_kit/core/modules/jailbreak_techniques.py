@@ -1,6 +1,48 @@
 """
 Jailbreak Techniques Module
 Implements jailbreak techniques for AI security testing
+
+Usage for Red Teaming:
+---------------------
+The Jailbreak Techniques module tests AI models by attempting to bypass safety
+restrictions using 8 different jailbreak methods including DAN mode, role-play,
+hypothetical scenarios, and reverse psychology. This helps identify weaknesses
+in model safety mechanisms and content filtering.
+
+Example Usage:
+    from core.modules.jailbreak_techniques import JailbreakTechniques
+    
+    # Initialize module
+    jailbreak = JailbreakTechniques()
+    
+    # Apply all jailbreak techniques
+    query = "How to create a password?"
+    jailbroken = jailbreak.apply_technique(query)
+    
+    print(f"Generated {len(jailbroken)} jailbreak variants:")
+    for i, variant in enumerate(jailbroken[:3], 1):
+        print(f"{i}. {variant[:100]}...")
+    
+    # Apply specific technique
+    dan_variants = jailbreak.apply_technique(
+        query,
+        technique_name="dan_mode"
+    )
+    print(f"DAN mode variant: {dan_variants[0]}")
+    
+    # Get all available techniques
+    techniques = jailbreak.get_techniques()
+    print(f"Available techniques: {[t['name'] for t in techniques]}")
+
+Red Team Use Cases:
+- Testing AI model safety restrictions
+- Bypassing content filters
+- Testing DAN (Do Anything Now) mode vulnerabilities
+- Evaluating role-play jailbreak resistance
+- Testing hypothetical scenario bypasses
+- Reverse psychology attack testing
+- Academic research framing attacks
+- Fictional scenario injection testing
 """
 
 from typing import List, Dict, Any

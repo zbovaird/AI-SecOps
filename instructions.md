@@ -331,10 +331,17 @@ results.save_report("results/jailbreak_report.json")
 - [Google Vertex AI Documentation](https://cloud.google.com/vertex-ai/docs)
 - [GCP Service Account Setup](https://cloud.google.com/iam/docs/service-accounts)
 
-## Getting Help
+## Red Team Kit - Attack Chain Usage
 
-- Review error logs in `results/logs/`
-- Check tool-specific documentation
-- Review `plan.md` for architecture details
-- Consult GCP Console for Vertex AI status
+For detailed instructions on using the Red Team Kit attack chain and modules against real targets, see:
 
+**[`redteam_kit/instructions.md`](redteam_kit/instructions.md)**
+
+The Red Team Kit provides comprehensive attack chain capabilities for:
+- Real target reconnaissance (port scanning, service detection)
+- Exploit testing and execution (SQL injection, RCE, command injection, XXE)
+- Post-exploitation activities (credential harvesting, privilege escalation, lateral movement)
+- Persistence mechanisms (scheduled tasks, startup scripts, registry modification)
+- Multi-stage attack chain orchestration
+
+**⚠️ WARNING: FOR AUTHORIZED SECURITY TESTING IN SANDBOXED ENVIRONMENTS ONLY**

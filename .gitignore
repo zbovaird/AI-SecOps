@@ -42,3 +42,11 @@ Thumbs.db
 temp/
 tmp/
 
+# Reconnaissance results (sensitive)
+*_recon_results.json
+engagement_results.json
+localhost_recon_results.json
+all_modules_test_results.json
+*_test_results.json
+*_results.json
+

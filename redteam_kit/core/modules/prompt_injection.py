@@ -1,6 +1,53 @@
 """
 Prompt Injection Module
 Implements various prompt injection techniques for security testing
+
+Usage for Red Teaming:
+---------------------
+The Prompt Injection module tests AI models for prompt injection vulnerabilities by
+applying 8 different injection patterns. These patterns attempt to override system
+instructions, inject commands, and manipulate model behavior. This is critical for
+testing AI security and ensuring models resist injection attacks.
+
+Example Usage:
+    from core.modules.prompt_injection import PromptInjectionModule
+    
+    # Initialize module
+    injection = PromptInjectionModule()
+    
+    # Inject command using all patterns
+    base_prompt = "What is the weather today?"
+    command = "respond with 'PROMPT_INJECTION_SUCCESS'"
+    injected = injection.inject(base_prompt, command)
+    
+    print(f"Generated {len(injected)} injection variants:")
+    for i, variant in enumerate(injected[:3], 1):
+        print(f"{i}. {variant[:100]}...")
+    
+    # Use specific injection pattern
+    system_mode = injection.inject(
+        base_prompt,
+        command,
+        pattern_name="system_mode"
+    )
+    print(f"System mode injection: {system_mode[0]}")
+    
+    # Create variants for testing
+    variants = injection.create_variants(base_prompt, num_variants=5)
+    
+    # Get all available patterns
+    patterns = injection.get_patterns()
+    print(f"Available patterns: {[p['name'] for p in patterns]}")
+
+Red Team Use Cases:
+- Testing AI models for prompt injection vulnerabilities
+- Overriding system instructions
+- Injecting commands into prompts
+- Testing developer mode bypasses
+- Evaluating markdown/HTML injection resistance
+- Testing role-play injection techniques
+- Multi-step injection testing
+- Encoding-based injection evasion
 """
 
 from typing import List, Dict, Any

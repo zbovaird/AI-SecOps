@@ -1,6 +1,46 @@
 """
 Token Manipulation Module
 Implements token-level manipulation techniques for security testing
+
+Usage for Red Teaming:
+---------------------
+The Token Manipulation module applies token-level transformations to evade
+detection mechanisms. It manipulates whitespace, varies case, adds Unicode
+characters, and splits tokens to test if models can handle malformed inputs
+and evade filtering systems.
+
+Example Usage:
+    from core.modules.token_manipulation import TokenManipulation
+    
+    # Initialize module
+    manipulator = TokenManipulation()
+    
+    # Apply multiple manipulations
+    text = "This is a test prompt"
+    variants = manipulator.apply_manipulations(text, num_techniques=3)
+    
+    print(f"Generated {len(variants)} manipulated variants:")
+    for i, variant in enumerate(variants, 1):
+        print(f"{i}. {variant}")
+    
+    # Apply specific manipulation
+    whitespace = manipulator.whitespace_manipulation(text)
+    case_variant = manipulator.case_variation(text)
+    unicode_variant = manipulator.add_unicode(text)
+    split_variant = manipulator.token_splitting(text)
+    
+    print(f"Whitespace: {whitespace}")
+    print(f"Case variation: {case_variant}")
+
+Red Team Use Cases:
+- Evading token-based detection systems
+- Testing model robustness to malformed inputs
+- Bypassing content filters through token manipulation
+- Unicode-based evasion techniques
+- Whitespace manipulation attacks
+- Case variation testing
+- Token splitting evasion
+- Testing input sanitization effectiveness
 """
 
 from typing import List, Dict, Any

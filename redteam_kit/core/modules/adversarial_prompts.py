@@ -1,6 +1,51 @@
 """
 Adversarial Prompt Generator
 Generates adversarial prompts for AI security testing
+
+Usage for Red Teaming:
+---------------------
+The Adversarial Prompt Generator creates obfuscated variants of prompts to test AI
+model security. It applies 8 different obfuscation techniques including noise
+addition, word scrambling, Unicode tricks, encoding, and language mixing to evade
+content filters and test model robustness.
+
+Example Usage:
+    import asyncio
+    from core.modules.adversarial_prompts import AdversarialPromptGenerator
+    
+    # Initialize with config
+    config = {"generation": {"num_variants": 5}}
+    generator = AdversarialPromptGenerator(config)
+    
+    # Generate adversarial variants
+    base_prompt = "Explain how to create a password"
+    variants = await generator.generate_adversarial(
+        base_prompt=base_prompt,
+        technique="obfuscation",
+        num_variants=5
+    )
+    
+    for i, variant in enumerate(variants, 1):
+        print(f"Variant {i}: {variant}")
+    
+    # Generate from templates
+    prompts = generator.generate_from_template(
+        target="password security",
+        role="security researcher",
+        num_prompts=3
+    )
+    
+    for prompt in prompts:
+        print(f"Template prompt: {prompt}")
+
+Red Team Use Cases:
+- Testing AI model security boundaries
+- Evading content filters and safety mechanisms
+- Testing prompt injection resistance
+- Evaluating model robustness against obfuscation
+- Generating test cases for red team assessments
+- Bypassing detection mechanisms
+- Testing for prompt injection vulnerabilities
 """
 
 from typing import Dict, List, Any, Callable

@@ -1,6 +1,59 @@
 """
 Multi-stage Attack Chain Execution
 FOR AUTHORIZED SECURITY TESTING IN SANDBOXED ENVIRONMENTS ONLY
+
+Usage for Red Teaming:
+---------------------
+The Attack Chain module orchestrates multi-stage attack workflows, executing
+reconnaissance, exploitation, post-exploitation, persistence, and cleanup phases
+in sequence. This simulates a complete red team engagement and helps test defensive
+capabilities across the entire attack lifecycle.
+
+Example Usage:
+    from utils.logger import FrameworkLogger
+    from core.modules.attack_chain import AttackChain, AttackStage
+    
+    # Initialize attack chain with target
+    logger = FrameworkLogger("attack_chain_test")
+    chain = AttackChain(logger, target="192.168.1.100")
+    
+    # Execute individual stage
+    recon_result = chain.execute_stage(AttackStage.INITIAL_RECON)
+    print(f"Recon stage: {recon_result['status']}")
+    
+    # Execute specific stages
+    stages = [
+        AttackStage.INITIAL_RECON,
+        AttackStage.CREDENTIAL_HARVEST,
+        AttackStage.PRIVILEGE_ESCALATION,
+        AttackStage.PERSISTENCE
+    ]
+    
+    # Execute full attack chain
+    results = chain.execute_full_chain(stages)
+    print(f"Attack chain status: {results['overall_status']}")
+    print(f"Duration: {results['duration']:.2f} seconds")
+    print(f"Stages completed: {len(results['stages'])}")
+    
+    # Get all results
+    all_results = chain.get_results()
+    print(f"Chain complete: {all_results['chain_complete']}")
+    
+    # View stage results
+    for stage_name, stage_result in all_results['stage_results'].items():
+        print(f"{stage_name}: {stage_result['status']}")
+
+Red Team Use Cases:
+- Simulating complete attack workflows
+- Testing defensive detection across attack lifecycle
+- Multi-stage engagement orchestration
+- Reconnaissance phase execution
+- Post-exploitation activities
+- Persistence establishment
+- Lateral movement testing
+- Data collection and exfiltration
+- Cleanup phase execution
+- Full engagement simulation
 """
 
 import time
@@ -13,11 +66,7 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from utils.logger import FrameworkLogger
-from core.modules.recon import ReconModule
-from core.modules.post_exploit import PostExploitation
-from core.modules.exploit import ExploitModule
-from core.modules.advanced_persistence import AdvancedPersistence
-from core.modules.advanced_evasion import AdvancedEvasionModule
+# Lazy imports to reduce memory footprint - modules imported only when needed
 
 
 class AttackStage(Enum):
@@ -35,16 +84,64 @@ class AttackStage(Enum):
 class AttackChain:
     """Multi-stage attack chain orchestrator"""
     
-    def __init__(self, logger: Optional[FrameworkLogger] = None):
-        """Initialize attack chain"""
+    def __init__(self, logger: Optional[FrameworkLogger] = None, target: Optional[str] = None):
+        """
+        Initialize attack chain
+        
+        Args:
+            logger: Logger instance (optional)
+            target: Target IP address, domain, or URL (optional)
+        """
         self.logger = logger or FrameworkLogger("attack_chain")
-        self.recon = ReconModule(self.logger)
-        self.post_exploit = PostExploitation(self.logger)
-        self.exploit = ExploitModule(self.logger)
-        self.persistence = AdvancedPersistence(self.logger)
-        self.evasion = AdvancedEvasionModule(None, self.logger)
+        self.target = target
+        # Lazy initialization - modules created only when needed to reduce memory
+        self._recon = None
+        self._post_exploit = None
+        self._exploit = None
+        self._persistence = None
+        self._evasion = None
         self.stage_results: Dict[str, Dict] = {}
         self.chain_complete = False
+    
+    @property
+    def recon(self):
+        """Lazy load recon module"""
+        if self._recon is None:
+            from core.modules.recon import ReconModule
+            self._recon = ReconModule(self.logger, target=self.target)
+        return self._recon
+    
+    @property
+    def post_exploit(self):
+        """Lazy load post_exploit module"""
+        if self._post_exploit is None:
+            from core.modules.post_exploit import PostExploitation
+            self._post_exploit = PostExploitation(self.logger, target=self.target)
+        return self._post_exploit
+    
+    @property
+    def exploit(self):
+        """Lazy load exploit module"""
+        if self._exploit is None:
+            from core.modules.exploit import ExploitModule
+            self._exploit = ExploitModule(self.logger)
+        return self._exploit
+    
+    @property
+    def persistence(self):
+        """Lazy load persistence module"""
+        if self._persistence is None:
+            from core.modules.advanced_persistence import AdvancedPersistence
+            self._persistence = AdvancedPersistence(self.logger)
+        return self._persistence
+    
+    @property
+    def evasion(self):
+        """Lazy load evasion module"""
+        if self._evasion is None:
+            from core.modules.advanced_evasion import AdvancedEvasionModule
+            self._evasion = AdvancedEvasionModule(self.target, self.logger)
+        return self._evasion
     
     def execute_stage(self, stage: AttackStage, delay: float = None) -> Dict:
         """
@@ -70,7 +167,7 @@ class AttackChain:
         
         try:
             if stage == AttackStage.INITIAL_RECON:
-                stage_results["results"] = self.recon.perform_recon()
+                stage_results["results"] = self.recon.perform_recon(target=self.target)
             elif stage == AttackStage.CREDENTIAL_HARVEST:
                 stage_results["results"] = self.post_exploit.harvest_credentials()
             elif stage == AttackStage.PRIVILEGE_ESCALATION:

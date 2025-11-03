@@ -8,7 +8,11 @@ typing-extensions>=4.0.0
 python-dotenv>=1.0.0
 pyyaml>=6.0
 
+# Network and HTTP
+requests>=2.31.0
+
 # Optional: For advanced features
 # cryptography>=41.0.0  # For encoding/encryption
-# requests>=2.31.0      # For API testing
+# python-nmap>=0.7.1    # For advanced port scanning
+# paramiko>=3.0.0       # For SSH operations
 
