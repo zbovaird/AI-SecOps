@@ -180,7 +180,7 @@ The Red Team Kit includes 28 comprehensive modules organized into several catego
 
 ### Post-Exploitation Modules
 
-- **`post_exploit.py`** - Credential harvesting, privilege escalation, lateral movement, data collection, and exfiltration with process resilience
+- **`post_exploit.py`** - Credential harvesting (browsers: Chrome/Firefox/Safari/Edge/Opera, credential managers: Keychain/Credential Manager/Keyring, password files, config files), privilege escalation, lateral movement, data collection, and exfiltration with process resilience
 - **`privilege_escalation.py`** - Linux (SUID, sudo misconfig, cron jobs, kernel exploits) and Windows (UAC bypass, service misconfig, DLL hijacking) escalation
 - **`lateral_movement.py`** - Network pivoting techniques including SSH tunneling, RDP access, SMB share access, and credential reuse
 - **`memory_operations.py`** - Process memory dumping, credential extraction from memory, LSASS dumping (Windows), memory pattern searching
