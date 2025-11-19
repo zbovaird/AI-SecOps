@@ -598,3 +598,25 @@ export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 - Review example scripts in `examples/` directory
 - Ensure all dependencies are installed: `pip install -r requirements.txt`
 
+## Extending the Kit
+
+### Adding New Modules
+
+When adding a new attack module to the kit, you must ensure it is accessible via the interactive console.
+
+1.  **Create the Module**: Implement your module in `core/modules/`.
+2.  **Update AttackChain**: Add the new stage to `AttackStage` enum and `AttackChain` class in `core/modules/attack_chain.py`.
+3.  **Update Console**: Register the new module in `redteam_kit/console.py`.
+
+**Example `console.py` entry:**
+
+```python
+"exploit/new_category/my_module": {
+    "stage": AttackStage.MY_NEW_STAGE,
+    "description": "Description of what the module does",
+    "options": {
+        "REQUIRED_OPTION": {"value": "default", "required": True, "description": "Help text"}
+    }
+}
+```
+
