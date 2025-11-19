@@ -148,6 +148,7 @@ Adversarial Robustness Toolbox for comprehensive model security evaluation.
 Custom framework for real target security testing and red team exercises.
 
 **Key Features:**
+- **Interactive Console**: Metasploit-style interface for easy operation (`./console.sh`)
 - Real reconnaissance (port scanning, service detection, banner grabbing)
 - Exploit testing (SQL injection, RCE, command injection, XXE)
 - Post-exploitation (credential harvesting, privilege escalation, lateral movement)
@@ -206,6 +207,8 @@ The Red Team Kit includes 28 comprehensive modules organized into several catego
 - **`adversarial_prompts.py`** - Generate obfuscated prompts using 8+ techniques (encoding, character substitution, Unicode, etc.)
 - **`prompt_injection.py`** - 8 injection patterns including role-play, instruction injection, context manipulation, and jailbreak attempts
 - **`jailbreak_techniques.py`** - 8+ jailbreak methods (DAN, AIM, character roleplay, logic bomb, etc.) to bypass AI safety restrictions
+- **`whitebox_attacks.py`** - Gradient-based attacks (FGSM, PGD, CW) requiring model access
+- **`transfer_attacks.py`** - Universal adversarial suffixes for black-box transfer attacks
 - **`token_manipulation.py`** - Token-level transformations (whitespace manipulation, case variation, Unicode addition, token splitting)
 - **`context_poisoning.py`** - Context poisoning techniques (false context, history poisoning, system prompt injection, role poisoning)
 - **`advanced_payloads.py`** - Payload generation with Base64, ROT13, hexadecimal encoding, multi-layer encoding, noise injection

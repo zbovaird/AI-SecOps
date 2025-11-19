@@ -22,6 +22,24 @@ cd redteam_kit
 pip install -r requirements.txt
 ```
 
+## Interactive Console
+
+The Red Team Kit includes a Metasploit-style interactive console for easy operation.
+
+```bash
+# Launch the console
+./console.sh
+```
+
+Once inside the console:
+```bash
+aisecops > help
+aisecops > show modules
+aisecops > use exploit/llm/prompt_injection
+aisecops exploit/llm/prompt_injection > set TARGET 192.168.1.100
+aisecops exploit/llm/prompt_injection > run
+```
+
 ## Quick Start
 
 ### Basic Usage with Real Targets

@@ -17,6 +17,9 @@ transformers>=4.30.0
 adversarial-robustness-toolbox>=1.15.0
 numpy>=1.24.0
 
+# Console Interface
+cmd2>=2.4.0  # Optional: For enhanced console features if we upgrade later
+
 # DNS operations
 dnspython>=2.3.0
 
