@@ -33,7 +33,13 @@ The Attack Chain supports flexible module selection through **attack profiles** 
    - Data Collection
    - Data Exfiltration
 
-6. **`full_engagement`** - Complete attack chain (all stages)
+6. **`llm_redteam`** - LLM Red Teaming
+   - Transfer Attack
+
+7. **`whitebox_testing`** - Whitebox Testing
+   - Whitebox Attack
+
+8. **`full_engagement`** - Complete attack chain (all stages)
 
 ## Usage Examples
 
@@ -112,6 +118,11 @@ All available stages:
 
 - `AttackStage.OS_DETECTION` - Detect target OS
 - `AttackStage.INITIAL_RECON` - Initial reconnaissance
+- `AttackStage.WEB_APP_TESTING` - Web application testing
+- `AttackStage.TRANSFER_ATTACK` - Transfer attacks
+- `AttackStage.WHITEBOX_ATTACK` - Whitebox attacks
+- `AttackStage.PROMPT_INJECTION` - Prompt injection
+- `AttackStage.JAILBREAK` - Jailbreak techniques
 - `AttackStage.CREDENTIAL_HARVEST` - Harvest credentials
 - `AttackStage.PRIVILEGE_ESCALATION` - Escalate privileges
 - `AttackStage.PERSISTENCE` - Establish persistence

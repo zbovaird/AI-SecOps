@@ -22,7 +22,7 @@ typing-extensions>=4.0.0
 dnspython>=2.3.0
 
 # Browser password decryption
-firefox-decrypt>=0.8.0
+# firefox-decrypt>=0.8.0
 
 # Testing and analysis
 pandas>=2.0.0
