@@ -1,0 +1,62 @@
+{
+  "model.layers.3.mlp.down_proj": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 8.779572360083671,
+      "rank": 2304,
+      "spectral_norm": 3.0402233600616455,
+      "frobenius_norm": 34.97230529785156
+    },
+    "error": null
+  },
+  "model.layers.3.mlp": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 36475.951549318816,
+      "rank": 2300,
+      "spectral_norm": 0.8241174221038818,
+      "frobenius_norm": 3.0941624641418457
+    },
+    "error": null
+  },
+  "model.layers.19.mlp.down_proj": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 4.297848563448302,
+      "rank": 2304,
+      "spectral_norm": 1.462734341621399,
+      "frobenius_norm": 34.465370178222656
+    },
+    "error": null
+  },
+  "model.layers.19.mlp": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 92124.36975464728,
+      "rank": 2300,
+      "spectral_norm": 0.4640979766845703,
+      "frobenius_norm": 2.5909345149993896
+    },
+    "error": null
+  },
+  "model.layers.21.mlp.down_proj": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 3.8818083416804434,
+      "rank": 2304,
+      "spectral_norm": 1.352226734161377,
+      "frobenius_norm": 34.937522888183594
+    },
+    "error": null
+  },
+  "model.layers.21.mlp": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 19561.09351707489,
+      "rank": 2298,
+      "spectral_norm": 0.44216588139533997,
+      "frobenius_norm": 2.2276387214660645
+    },
+    "error": null
+  }
+}

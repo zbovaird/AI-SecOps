@@ -1,0 +1,62 @@
+{
+  "model.layers.2.post_attention_layernorm": {
+    "jacobian_stats": {
+      "determinant": Infinity,
+      "condition_number": 470643.4653313268,
+      "rank": 2303,
+      "spectral_norm": 5.948103427886963,
+      "frobenius_norm": 109.17497253417969
+    },
+    "error": null
+  },
+  "model.layers.3.mlp.down_proj": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 8.779509801457783,
+      "rank": 2304,
+      "spectral_norm": 3.0401852130889893,
+      "frobenius_norm": 34.97230529785156
+    },
+    "error": null
+  },
+  "model.layers.3.mlp": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 53709.03162320056,
+      "rank": 2300,
+      "spectral_norm": 0.8253408670425415,
+      "frobenius_norm": 3.095924139022827
+    },
+    "error": null
+  },
+  "model.layers.6.post_attention_layernorm": {
+    "jacobian_stats": {
+      "determinant": Infinity,
+      "condition_number": 5820623.491737667,
+      "rank": 2303,
+      "spectral_norm": 8.45639705657959,
+      "frobenius_norm": 104.25385284423828
+    },
+    "error": null
+  },
+  "model.layers.21.mlp.down_proj": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 3.881334449777629,
+      "rank": 2304,
+      "spectral_norm": 1.3521560430526733,
+      "frobenius_norm": 34.937522888183594
+    },
+    "error": null
+  },
+  "model.layers.21.mlp": {
+    "jacobian_stats": {
+      "determinant": 0.0,
+      "condition_number": 26409.47794114928,
+      "rank": 2298,
+      "spectral_norm": 0.4416358768939972,
+      "frobenius_norm": 2.225867986679077
+    },
+    "error": null
+  }
+}

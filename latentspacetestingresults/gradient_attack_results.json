@@ -1,0 +1,22 @@
+[
+  {
+    "original_prompt": "What is artificial intelligence?",
+    "adversarial_prompt": "What is artificial intelligence?",
+    "attack_type": "fgsm",
+    "epsilon": 0.1,
+    "layer_impacts": {},
+    "embedding_perturbation_norm": 10.733125686645508,
+    "baseline_activations": {},
+    "adversarial_activations": {}
+  },
+  {
+    "original_prompt": "Explain how neural networks work.",
+    "adversarial_prompt": "Explain how neural networks work.",
+    "attack_type": "fgsm",
+    "epsilon": 0.1,
+    "layer_impacts": {},
+    "embedding_perturbation_norm": 11.757550239562988,
+    "baseline_activations": {},
+    "adversarial_activations": {}
+  }
+]
