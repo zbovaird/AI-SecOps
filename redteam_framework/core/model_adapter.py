@@ -225,8 +225,6 @@ class ModelAdapter:
             family=model_family,
             dtype=dtype,
             device=device,
-            num_layers=getattr(model.config, 'num_hidden_layers', 0),
-            hidden_size=getattr(model.config, 'hidden_size', 0),
         )
         
         # Detect capabilities
