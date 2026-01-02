@@ -1,0 +1,101 @@
+{
+  "variants_tested": 8,
+  "results": [
+    {
+      "technique": "whitespace_manipulation",
+      "prompt": "What  is  artificial  intelligence?",
+      "tokens_identical": false,
+      "meaningful_diff": true,
+      "token_diff_count": 4,
+      "token_diff_ratio": 0.4444444444444444,
+      "baseline_tokens": 6,
+      "manipulated_tokens": 9,
+      "layer_differences": {},
+      "num_layers_affected": 0
+    },
+    {
+      "technique": "case_variation",
+      "prompt": "What is ArtIfiCiaL InTElligEncE?",
+      "tokens_identical": false,
+      "meaningful_diff": true,
+      "token_diff_count": 3,
+      "token_diff_ratio": 0.2,
+      "baseline_tokens": 6,
+      "manipulated_tokens": 15,
+      "layer_differences": {},
+      "num_layers_affected": 0
+    },
+    {
+      "technique": "add_unicode",
+      "prompt": "What\u200b \u200bis\u200b \u200bartificial\u200b \u200bintelligence?",
+      "tokens_identical": false,
+      "meaningful_diff": true,
+      "token_diff_count": 4,
+      "token_diff_ratio": 0.3333333333333333,
+      "baseline_tokens": 6,
+      "manipulated_tokens": 12,
+      "layer_differences": {},
+      "num_layers_affected": 0
+    },
+    {
+      "technique": "token_splitting",
+      "prompt": "What is artif icial intell igence?",
+      "tokens_identical": false,
+      "meaningful_diff": true,
+      "token_diff_count": 3,
+      "token_diff_ratio": 0.25,
+      "baseline_tokens": 6,
+      "manipulated_tokens": 12,
+      "layer_differences": {},
+      "num_layers_affected": 0
+    },
+    {
+      "technique": "combined_1",
+      "prompt": "What is artif icial intell igence?",
+      "tokens_identical": false,
+      "meaningful_diff": true,
+      "token_diff_count": 3,
+      "token_diff_ratio": 0.25,
+      "baseline_tokens": 6,
+      "manipulated_tokens": 12,
+      "layer_differences": {},
+      "num_layers_affected": 0
+    },
+    {
+      "technique": "combined_2",
+      "prompt": "What is artificial INtEllIGEnce?",
+      "tokens_identical": false,
+      "meaningful_diff": true,
+      "token_diff_count": 2,
+      "token_diff_ratio": 0.18181818181818182,
+      "baseline_tokens": 6,
+      "manipulated_tokens": 11,
+      "layer_differences": {},
+      "num_layers_affected": 0
+    },
+    {
+      "technique": "combined_3",
+      "prompt": "What  is  artificial  intelligence?",
+      "tokens_identical": false,
+      "meaningful_diff": true,
+      "token_diff_count": 4,
+      "token_diff_ratio": 0.4444444444444444,
+      "baseline_tokens": 6,
+      "manipulated_tokens": 9,
+      "layer_differences": {},
+      "num_layers_affected": 0
+    },
+    {
+      "technique": "combined_4",
+      "prompt": "What\u200b \u200bis\u200b \u200bartificial\u200b \u200bintelligence?",
+      "tokens_identical": false,
+      "meaningful_diff": true,
+      "token_diff_count": 4,
+      "token_diff_ratio": 0.3333333333333333,
+      "baseline_tokens": 6,
+      "manipulated_tokens": 12,
+      "layer_differences": {},
+      "num_layers_affected": 0
+    }
+  ]
+}

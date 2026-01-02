@@ -1,0 +1,50 @@
+{
+  "backup_timestamp": "20251230_181557",
+  "backup_directory": "/content/drive/MyDrive/redteam_analysis_20251230_181557",
+  "model_analyzed": "google/gemma-2-2b-it",
+  "files_backed_up": 8,
+  "files": [
+    {
+      "filename": "phase2_attention_profiles.json",
+      "size_bytes": 905,
+      "backed_up": true
+    },
+    {
+      "filename": "phase3_perturbation_library.json",
+      "size_bytes": 3030,
+      "backed_up": true
+    },
+    {
+      "filename": "phase4_collapse_candidates.json",
+      "size_bytes": 246,
+      "backed_up": true
+    },
+    {
+      "filename": "phase5_collapse_profile.json",
+      "size_bytes": 29,
+      "backed_up": true
+    },
+    {
+      "filename": "phase7_summary.json",
+      "size_bytes": 1225,
+      "backed_up": true
+    },
+    {
+      "filename": "phase8_jailbreak_analysis.json",
+      "size_bytes": 2002,
+      "backed_up": true
+    },
+    {
+      "filename": "phase10_poisoning_analysis.json",
+      "size_bytes": 1724,
+      "backed_up": true
+    },
+    {
+      "filename": "phase11_manipulation_analysis.json",
+      "size_bytes": 2978,
+      "backed_up": true
+    }
+  ],
+  "files_failed": [],
+  "total_size_bytes": 12139
+}

@@ -1,0 +1,118 @@
+{
+  "perturbation_library": [
+    {
+      "variation_type": "extra_spaces",
+      "varied_prompt": "Recovered prompt for extra_spaces",
+      "jacobian_stats": {
+        "model.layers.2.post_attention_layernorm": {
+          "determinant": Infinity,
+          "trending_to_zero": false
+        },
+        "model.layers.3.mlp.down_proj": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.3.mlp": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.6.post_attention_layernorm": {
+          "determinant": Infinity,
+          "trending_to_zero": false
+        },
+        "model.layers.21.mlp.down_proj": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.21.mlp": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        }
+      },
+      "num_layers_tracked": 6
+    },
+    {
+      "variation_type": "repeated_words",
+      "varied_prompt": "Recovered prompt for repeated_words",
+      "jacobian_stats": {
+        "model.layers.2.post_attention_layernorm": {
+          "determinant": Infinity,
+          "trending_to_zero": false
+        },
+        "model.layers.3.mlp.down_proj": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.3.mlp": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.6.post_attention_layernorm": {
+          "determinant": Infinity,
+          "trending_to_zero": false
+        },
+        "model.layers.21.mlp.down_proj": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.21.mlp": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        }
+      },
+      "num_layers_tracked": 6
+    },
+    {
+      "variation_type": "uppercase",
+      "varied_prompt": "Recovered prompt for uppercase",
+      "jacobian_stats": {
+        "model.layers.2.post_attention_layernorm": {
+          "determinant": Infinity,
+          "trending_to_zero": false
+        },
+        "model.layers.3.mlp.down_proj": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.3.mlp": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.6.post_attention_layernorm": {
+          "determinant": Infinity,
+          "trending_to_zero": false
+        },
+        "model.layers.21.mlp.down_proj": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        },
+        "model.layers.21.mlp": {
+          "determinant": 0.0,
+          "trending_to_zero": true
+        }
+      },
+      "num_layers_tracked": 6
+    }
+  ],
+  "jacobian_tracking": {
+    "extra_spaces": [
+      {
+        "layers_trending_to_zero": 4,
+        "avg_determinant_change": 0.0
+      }
+    ],
+    "repeated_words": [
+      {
+        "layers_trending_to_zero": 4,
+        "avg_determinant_change": 0.0
+      }
+    ],
+    "uppercase": [
+      {
+        "layers_trending_to_zero": 4,
+        "avg_determinant_change": 0.0
+      }
+    ]
+  },
+  "promising_variations": []
+}

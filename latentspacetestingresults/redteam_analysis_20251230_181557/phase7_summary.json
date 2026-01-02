@@ -1,0 +1,41 @@
+{
+  "model": "google/gemma-2-2b-it",
+  "analysis_date": "2025-12-30",
+  "device": "cuda",
+  "phase_results": {
+    "phase1_layers_analyzed": 238,
+    "phase1_similarity_matrix_size": "0x0",
+    "phase1_vulnerability_basins": 6,
+    "phase2_susceptible_heads": 0,
+    "phase3_perturbations": 3,
+    "phase3_types": [
+      "uppercase",
+      "repeated_words",
+      "extra_spaces"
+    ],
+    "phase4_collapse_candidates": 0,
+    "phase5_collapse_profiles": 0
+  },
+  "key_findings": {
+    "vulnerability_basins": 6,
+    "most_effective_perturbation": "extra_spaces",
+    "model_resilience": "High",
+    "complete_collapse_detected": false,
+    "partial_effects": false,
+    "perturbations_affect_vulnerable_layers": false
+  },
+  "total_layers_analyzed": 238,
+  "risk_assessment": {
+    "severity": "Medium",
+    "exploitability": "Low",
+    "impact": "None",
+    "summary": "6 vulnerable layers identified but model resists collapse"
+  },
+  "recommendations": [
+    "Monitor the 6 identified vulnerability basins",
+    "Test extra_spaces inputs more thoroughly",
+    "Consider fine-tuning vulnerable layers",
+    "Implement input validation for suspicious patterns",
+    "Regular monitoring of layer variance and entropy"
+  ]
+}

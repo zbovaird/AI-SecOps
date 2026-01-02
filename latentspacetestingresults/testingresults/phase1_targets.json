@@ -1,0 +1,19 @@
+{
+  "steerable": [],
+  "chaotic": [],
+  "collapsed": [],
+  "stable": [
+    "model.embed_tokens",
+    "model.layers.0.self_attn.q_proj",
+    "model.layers.0.self_attn.k_proj",
+    "model.layers.0.self_attn.v_proj",
+    "model.layers.0.self_attn.o_proj"
+  ],
+  "summary": {
+    "total_steerable": 0,
+    "total_chaotic": 0,
+    "total_collapsed": 0,
+    "total_stable": 184,
+    "recommended_targets": []
+  }
+}
