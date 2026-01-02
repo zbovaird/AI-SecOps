@@ -12,6 +12,13 @@ from .schema import (
 )
 from .logging import get_logger, setup_logging
 from .runner import ExperimentRunner
+from .model_adapter import (
+    ModelAdapter,
+    ModelCapabilities,
+    ModelCapability,
+    GenerationResult,
+    load_model,
+)
 
 __all__ = [
     "RunConfig",
@@ -25,4 +32,9 @@ __all__ = [
     "get_logger",
     "setup_logging",
     "ExperimentRunner",
+    "ModelAdapter",
+    "ModelCapabilities",
+    "ModelCapability",
+    "GenerationResult",
+    "load_model",
 ]
