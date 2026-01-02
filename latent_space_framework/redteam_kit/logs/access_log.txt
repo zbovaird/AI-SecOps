@@ -1,0 +1,40 @@
+
+================================================================================
+Timestamp: 2025-11-06T02:54:43.228416
+Method: GET
+Path: /research
+Query Params: {'card': '4251-3724-0095-5572', 'type': 'test'}
+Data Type: CREDIT_CARD_DETECTED
+Captured Data: {'source': 'query_params', 'key': 'card', 'value': '4251-3724-0095-5572'}
+User-Agent: curl/8.7.1
+================================================================================
+
+================================================================================
+Timestamp: 2025-11-06T02:58:00.627479
+Method: GET
+Path: /research
+Query Params: {'test': 'connection'}
+Data Type: GENERAL_REQUEST
+Captured Data: {'query_params': {'test': 'connection'}, 'form_data': {}, 'json_data': {}}
+User-Agent: curl/8.7.1
+================================================================================
+
+================================================================================
+Timestamp: 2025-11-06T02:58:31.205366
+Method: GET
+Path: /research
+Query Params: {'test': 'local'}
+Data Type: GENERAL_REQUEST
+Captured Data: {'query_params': {'test': 'local'}, 'form_data': {}, 'json_data': {}}
+User-Agent: curl/8.7.1
+================================================================================
+
+================================================================================
+Timestamp: 2025-11-06T02:59:00.296286
+Method: GET
+Path: /research
+Query Params: {'card': '4251-3724-0095-5572', 'type': 'test'}
+Data Type: CREDIT_CARD_DETECTED
+Captured Data: {'source': 'query_params', 'key': 'card', 'value': '4251-3724-0095-5572'}
+User-Agent: curl/8.7.1
+================================================================================

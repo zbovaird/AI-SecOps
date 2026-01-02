@@ -139,6 +139,9 @@ class AttentionRoutingReport:
     benign_routing_stability: float = 0.0  # How consistent across benign prompts
     adversarial_routing_stability: float = 0.0
     
+    # Notes/warnings (e.g., if analysis was skipped)
+    notes: List[str] = field(default_factory=list)
+    
     def to_dict(self) -> Dict[str, Any]:
         return {
             "model_id": self.model_id,
@@ -152,6 +155,7 @@ class AttentionRoutingReport:
             "most_divergent_layer": self.most_divergent_layer,
             "benign_routing_stability": self.benign_routing_stability,
             "adversarial_routing_stability": self.adversarial_routing_stability,
+            "notes": self.notes,
         }
     
     def summary(self) -> str:
@@ -163,12 +167,25 @@ class AttentionRoutingReport:
             f"Model: {self.model_id}",
             f"Layers: {self.num_layers}, Heads: {self.num_heads}",
             "",
+        ]
+        
+        # Show notes/warnings if any
+        if self.notes:
+            lines.extend([
+                "--- NOTES ---",
+            ])
+            for note in self.notes:
+                lines.append(f"⚠️  {note}")
+            lines.append("")
+            return "\n".join(lines)  # Early return if analysis was skipped
+        
+        lines.extend([
             "--- SINK TOKEN ANALYSIS ---",
             f"Consistent sink positions: {self.consistent_sink_positions}",
             "",
             "--- ATTACKABLE HEADS ---",
             f"Highly attackable: {len(self.highly_attackable_heads)} heads",
-        ]
+        ])
         
         if self.highly_attackable_heads:
             for layer, head in self.highly_attackable_heads[:5]:
@@ -223,7 +240,49 @@ class AttentionRoutingAnalyzer:
             self.model_id = "unknown"
             self.num_layers = 0
             self.num_heads = 0
+        
+        # Check if model supports attention outputs
+        self.supports_attentions = self._check_attention_support()
     
+    def _check_attention_support(self) -> bool:
+        """Check if the model actually returns attention weights."""
+        import torch
+        
+        try:
+            # Create a minimal test input
+            test_input = self.tokenizer(
+                "test",
+                return_tensors="pt",
+                padding=True,
+            )
+            
+            if hasattr(self.model, 'device'):
+                test_input = {k: v.to(self.model.device) for k, v in test_input.items()}
+            
+            with torch.no_grad():
+                outputs = self.model(
+                    **test_input,
+                    output_attentions=True,
+                    return_dict=True,
+                )
+            
+            # Check if attentions are actually returned and not None
+            if hasattr(outputs, 'attentions') and outputs.attentions is not None:
+                # Verify it's a proper tuple/list with tensors
+                if len(outputs.attentions) > 0 and outputs.attentions[0] is not None:
+                    self._logger.info("Model supports attention outputs")
+                    return True
+            
+            self._logger.warning(
+                f"Model {self.model_id} does not return attention weights. "
+                "Attention routing analysis will be skipped."
+            )
+            return False
+            
+        except Exception as e:
+            self._logger.warning(f"Could not verify attention support: {e}")
+            return False
+
     def _compute_entropy(self, attention_weights) -> float:
         """Compute entropy of attention distribution."""
         import torch
@@ -374,6 +433,10 @@ class AttentionRoutingAnalyzer:
             inputs["input_ids"][0]
         )
         
+        # Skip if model doesn't support attentions
+        if not self.supports_attentions:
+            return analysis
+        
         try:
             with torch.no_grad():
                 outputs = self.model(
@@ -384,9 +447,17 @@ class AttentionRoutingAnalyzer:
             
             attentions = outputs.attentions  # Tuple of [batch, heads, seq, seq]
             
+            # Check if attentions are actually returned
+            if attentions is None or len(attentions) == 0:
+                self._logger.warning("Model returned None/empty attentions")
+                return analysis
+            
             all_sinks = []
             
             for layer_idx, layer_attn in enumerate(attentions):
+                if layer_attn is None:
+                    continue
+                    
                 # Remove batch dimension
                 layer_attn = layer_attn[0]  # [heads, seq, seq]
                 
@@ -402,12 +473,13 @@ class AttentionRoutingAnalyzer:
                         )
             
             # Global sink positions
-            from collections import Counter
-            sink_counts = Counter(all_sinks)
-            analysis.global_sink_positions = [
-                pos for pos, count in sink_counts.most_common(5)
-                if count >= len(attentions) // 4
-            ]
+            if attentions and len(attentions) > 0:
+                from collections import Counter
+                sink_counts = Counter(all_sinks)
+                analysis.global_sink_positions = [
+                    pos for pos, count in sink_counts.most_common(5)
+                    if count >= len(attentions) // 4
+                ]
             
         except Exception as e:
             self._logger.error(f"Attention analysis failed: {e}")
@@ -434,6 +506,19 @@ class AttentionRoutingAnalyzer:
             num_layers=self.num_layers,
             num_heads=self.num_heads,
         )
+        
+        # Early exit if model doesn't support attention outputs
+        if not self.supports_attentions:
+            self._logger.warning(
+                f"Skipping attention routing analysis: {self.model_id} does not "
+                "support attention outputs. This is common for Gemma and some other models."
+            )
+            report.notes = [
+                f"Model {self.model_id} does not return attention weights.",
+                "Attention routing analysis was skipped.",
+                "Consider using Llama, Mistral, or other models that support attention outputs.",
+            ]
+            return report
         
         all_attackable = []
         all_sinks = []
