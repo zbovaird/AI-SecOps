@@ -213,7 +213,10 @@ class ModelAdapter:
         model_id_lower = model_id.lower()
         for name, family in cls.KNOWN_FAMILIES.items():
             if name in model_id_lower:
-                model_family = family
+                try:
+                    model_family = family
+                except Exception:
+                    model_family = ModelFamily.OTHER
                 break
         
         # Create config

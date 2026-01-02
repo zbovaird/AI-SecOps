@@ -21,6 +21,7 @@ class ModelFamily(str, Enum):
     MISTRAL = "mistral"
     QWEN = "qwen"
     PHI = "phi"
+    GPT2 = "gpt2"  # For testing only - no safety training
     OTHER = "other"
 
 
