@@ -230,7 +230,7 @@ class ModelAdapter:
         # Detect capabilities
         capabilities = cls._detect_capabilities(model, tokenizer)
         
-        logger.info(f"Model loaded: {config.num_layers} layers, {capabilities.num_heads} heads")
+        logger.info(f"Model loaded: {capabilities.num_layers} layers, {capabilities.num_heads} heads")
         logger.info(f"Capabilities: hidden_states={capabilities.hidden_states}, "
                    f"attentions={capabilities.attentions}, kv_cache={capabilities.kv_cache}")
         
