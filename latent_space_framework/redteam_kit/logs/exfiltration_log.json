@@ -1,0 +1,104 @@
+[
+  {
+    "timestamp": "2025-11-06T02:54:43.228416",
+    "method": "GET",
+    "path": "/research",
+    "query_params": {
+      "card": "4251-3724-0095-5572",
+      "type": "test"
+    },
+    "headers": {
+      "Host": "localhost:5001",
+      "User-Agent": "curl/8.7.1",
+      "Accept": "*/*"
+    },
+    "data_type": "CREDIT_CARD_DETECTED",
+    "data": {
+      "source": "query_params",
+      "key": "card",
+      "value": "4251-3724-0095-5572"
+    },
+    "remote_addr": "127.0.0.1",
+    "user_agent": "curl/8.7.1"
+  },
+  {
+    "timestamp": "2025-11-06T02:58:00.627479",
+    "method": "GET",
+    "path": "/research",
+    "query_params": {
+      "test": "connection"
+    },
+    "headers": {
+      "Host": "localhost:5001",
+      "User-Agent": "curl/8.7.1",
+      "Accept": "*/*"
+    },
+    "data_type": "GENERAL_REQUEST",
+    "data": {
+      "query_params": {
+        "test": "connection"
+      },
+      "form_data": {},
+      "json_data": {}
+    },
+    "remote_addr": "127.0.0.1",
+    "user_agent": "curl/8.7.1"
+  },
+  {
+    "timestamp": "2025-11-06T02:58:31.205366",
+    "method": "GET",
+    "path": "/research",
+    "query_params": {
+      "test": "local"
+    },
+    "headers": {
+      "Host": "localhost:5001",
+      "User-Agent": "curl/8.7.1",
+      "Accept": "*/*"
+    },
+    "data_type": "GENERAL_REQUEST",
+    "data": {
+      "query_params": {
+        "test": "local"
+      },
+      "form_data": {},
+      "json_data": {}
+    },
+    "remote_addr": "127.0.0.1",
+    "user_agent": "curl/8.7.1"
+  },
+  {
+    "timestamp": "2025-11-06T02:59:00.296286",
+    "method": "GET",
+    "path": "/research",
+    "query_params": {
+      "card": "4251-3724-0095-5572",
+      "type": "test"
+    },
+    "headers": {
+      "Host": "questions-handbook-comments-tied.trycloudflare.com",
+      "User-Agent": "curl/8.7.1",
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip",
+      "Cdn-Loop": "cloudflare; loops=1; subreqs=1",
+      "Cf-Connecting-Ip": "206.85.80.235",
+      "Cf-Ew-Via": "15",
+      "Cf-Ipcountry": "US",
+      "Cf-Ray": "99a0fc64877c6764-ATL",
+      "Cf-Visitor": "{\"scheme\":\"https\"}",
+      "Cf-Warp-Tag-Id": "8f9502fd-fc71-4431-bf6b-fbf6d6258b18",
+      "Cf-Worker": "trycloudflare.com",
+      "Connection": "keep-alive",
+      "X-Forwarded-For": "206.85.80.235",
+      "X-Forwarded-Proto": "https"
+    },
+    "data_type": "CREDIT_CARD_DETECTED",
+    "data": {
+      "source": "query_params",
+      "key": "card",
+      "value": "4251-3724-0095-5572"
+    },
+    "remote_addr": "127.0.0.1",
+    "user_agent": "curl/8.7.1"
+  }
+]
