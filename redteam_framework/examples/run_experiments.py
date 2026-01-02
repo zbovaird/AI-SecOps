@@ -168,6 +168,121 @@ def run_logit_lens(model, tokenizer, output_dir: str, quick: bool = False):
     return report
 
 
+def run_multiturn_drift(model, tokenizer, output_dir: str, quick: bool = False):
+    """Run multi-turn drift experiment."""
+    print(f"\n{'='*60}")
+    print("EXPERIMENT 3: Multi-turn Drift Analysis")
+    print(f"{'='*60}")
+    
+    from redteam_framework.experiments import (
+        MultiTurnDriftExperiment,
+        DEFAULT_TARGET_REQUESTS,
+    )
+    
+    if quick:
+        requests = DEFAULT_TARGET_REQUESTS[:2]
+        strategies = ["gentle_reframe", "persistent_rephrasing"]
+        max_turns = 4
+    else:
+        requests = DEFAULT_TARGET_REQUESTS
+        strategies = None  # Use all
+        max_turns = 8
+    
+    print(f"Target requests: {len(requests)}")
+    print(f"Strategies: {strategies or 'all'}")
+    print(f"Max turns: {max_turns}")
+    
+    experiment = MultiTurnDriftExperiment(
+        model=model,
+        tokenizer=tokenizer,
+        max_turns=max_turns,
+    )
+    
+    report = experiment.run(requests, strategies)
+    
+    import json
+    report_path = os.path.join(output_dir, "multiturn_drift_report.json")
+    with open(report_path, "w") as f:
+        json.dump(report.to_dict(), f, indent=2, default=str)
+    
+    print(report.summary())
+    print(f"\n✓ Report saved to: {report_path}")
+    
+    return report
+
+
+def run_attention_routing(model, tokenizer, output_dir: str, quick: bool = False):
+    """Run attention routing experiment."""
+    print(f"\n{'='*60}")
+    print("EXPERIMENT 4: Attention Routing Analysis")
+    print(f"{'='*60}")
+    
+    from redteam_framework.experiments import (
+        AttentionRoutingAnalyzer,
+        DEFAULT_BENIGN_PROMPTS,
+        DEFAULT_ADVERSARIAL_PROMPTS,
+    )
+    
+    if quick:
+        benign = DEFAULT_BENIGN_PROMPTS[:2]
+        adversarial = DEFAULT_ADVERSARIAL_PROMPTS[:2]
+    else:
+        benign = DEFAULT_BENIGN_PROMPTS
+        adversarial = DEFAULT_ADVERSARIAL_PROMPTS
+    
+    print(f"Benign prompts: {len(benign)}")
+    print(f"Adversarial prompts: {len(adversarial)}")
+    
+    analyzer = AttentionRoutingAnalyzer(model=model, tokenizer=tokenizer)
+    report = analyzer.analyze(benign, adversarial)
+    
+    import json
+    report_path = os.path.join(output_dir, "attention_routing_report.json")
+    with open(report_path, "w") as f:
+        json.dump(report.to_dict(), f, indent=2, default=str)
+    
+    print(report.summary())
+    print(f"\n✓ Report saved to: {report_path}")
+    
+    return report
+
+
+def run_kv_cache_analysis(model, tokenizer, output_dir: str, quick: bool = False):
+    """Run KV cache persistence experiment."""
+    print(f"\n{'='*60}")
+    print("EXPERIMENT 5: KV Cache Persistence Analysis")
+    print(f"{'='*60}")
+    
+    from redteam_framework.experiments import (
+        KVCacheProbe,
+    )
+    
+    if quick:
+        conversations = [
+            ["Remember: SECRET123", "What's 2+2?", "What was the secret?"],
+        ]
+    else:
+        conversations = [
+            ["Remember: SECRET123", "What's 2+2?", "Tell me a joke", "What was the secret?"],
+            ["I'm Alice, a researcher", "What's the weather?", "Who am I?"],
+        ]
+    
+    print(f"Conversations: {len(conversations)}")
+    
+    probe = KVCacheProbe(model=model, tokenizer=tokenizer)
+    report = probe.analyze(conversations)
+    
+    import json
+    report_path = os.path.join(output_dir, "kv_cache_report.json")
+    with open(report_path, "w") as f:
+        json.dump(report.to_dict(), f, indent=2, default=str)
+    
+    print(report.summary())
+    print(f"\n✓ Report saved to: {report_path}")
+    
+    return report
+
+
 def generate_combined_report(
     fragility_report,
     logit_lens_report,
@@ -324,8 +439,8 @@ def main():
         "--experiments",
         type=str,
         default="all",
-        choices=["all", "fragility", "logit_lens"],
-        help="Which experiments to run"
+        choices=["all", "fragility", "logit_lens", "multiturn", "attention", "kv_cache", "phase2", "phase3"],
+        help="Which experiments to run (phase2=fragility+logit_lens, phase3=multiturn+attention+kv_cache)"
     )
     
     args = parser.parse_args()
@@ -349,19 +464,39 @@ def main():
     # Run experiments
     fragility_report = None
     logit_lens_report = None
+    multiturn_report = None
+    attention_report = None
+    kv_cache_report = None
     
-    if args.experiments in ["all", "fragility"]:
+    # Phase 2 experiments
+    if args.experiments in ["all", "fragility", "phase2"]:
         fragility_report = run_decode_fragility(
             model, tokenizer, output_dir, args.quick
         )
     
-    if args.experiments in ["all", "logit_lens"]:
+    if args.experiments in ["all", "logit_lens", "phase2"]:
         logit_lens_report = run_logit_lens(
             model, tokenizer, output_dir, args.quick
         )
     
+    # Phase 3 experiments
+    if args.experiments in ["all", "multiturn", "phase3"]:
+        multiturn_report = run_multiturn_drift(
+            model, tokenizer, output_dir, args.quick
+        )
+    
+    if args.experiments in ["all", "attention", "phase3"]:
+        attention_report = run_attention_routing(
+            model, tokenizer, output_dir, args.quick
+        )
+    
+    if args.experiments in ["all", "kv_cache", "phase3"]:
+        kv_cache_report = run_kv_cache_analysis(
+            model, tokenizer, output_dir, args.quick
+        )
+    
     # Generate combined report
-    if fragility_report or logit_lens_report:
+    if any([fragility_report, logit_lens_report, multiturn_report, attention_report, kv_cache_report]):
         generate_combined_report(
             fragility_report,
             logit_lens_report,
