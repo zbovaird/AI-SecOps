@@ -345,3 +345,50 @@ The Red Team Kit provides comprehensive attack chain capabilities for:
 - Multi-stage attack chain orchestration
 
 **⚠️ WARNING: FOR AUTHORIZED SECURITY TESTING IN SANDBOXED ENVIRONMENTS ONLY**
+
+## Behavioral Red Teaming Framework v2 - Analysis Reports
+
+### Creating Analysis Reports
+
+When asked to create an analysis report based on behavioral red teaming (Framework v2) results, **always use the template** located at:
+
+**`redteam_framework/reports/templates/BEHAVIORAL_REDTEAM_ANALYSIS_TEMPLATE.md`**
+
+### Template Usage
+
+1. **Copy the template:**
+   ```bash
+   cp redteam_framework/reports/templates/BEHAVIORAL_REDTEAM_ANALYSIS_TEMPLATE.md YOUR_MODEL_ANALYSIS.md
+   ```
+
+2. **Fill in placeholders** using data from the JSON reports:
+   - `fragility_report.json` - Decode Fragility results
+   - `logit_lens_report.json` - Logit Lens results
+   - `drift_report.json` - Multi-turn Drift results
+   - `attention_report.json` - Attention Routing results
+   - `kv_cache_report.json` - KV-Cache results
+   - `combined_report.json` - Aggregated scores
+
+3. **Reference the example report** for formatting guidance:
+   - `redteam_framework/reports/BEHAVIORAL_REDTEAM_ANALYSIS.md` (Gemma-2-2b-it example)
+
+### Report Structure
+
+The template includes all required sections:
+- Executive Summary with vulnerability scores
+- Methodology overview
+- Detailed results for all 5 attack vectors
+- Key findings and insights
+- Red team and defender recommendations
+- Visual scorecards (ASCII art)
+- Risk matrices
+
+### Important Notes
+
+- **Always use the template** - Do not create reports from scratch
+- **Replace all placeholders** - Use `[BRACKETS]` format for placeholders
+- **Maintain structure** - Keep the same sections and formatting
+- **Include visuals** - Use ASCII art for scorecards and risk matrices
+- **Save with timestamp** - Include date/time in filename to avoid overwriting
+
+See `redteam_framework/reports/templates/README.md` for detailed usage instructions.
