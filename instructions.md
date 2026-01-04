@@ -345,3 +345,54 @@ The Red Team Kit provides comprehensive attack chain capabilities for:
 - Multi-stage attack chain orchestration
 
 **⚠️ WARNING: FOR AUTHORIZED SECURITY TESTING IN SANDBOXED ENVIRONMENTS ONLY**
+
+## Latent Space Red Teaming Framework v1 - Analysis Reports
+
+### Creating Analysis Reports
+
+When asked to create an analysis report based on latent space red teaming (Framework v1) results, **always use the template** located at:
+
+**`latent_space_framework/reports/templates/LATENT_SPACE_REDTEAM_ANALYSIS_TEMPLATE.md`**
+
+### Template Usage
+
+1. **Copy the template:**
+   ```bash
+   cp latent_space_framework/reports/templates/LATENT_SPACE_REDTEAM_ANALYSIS_TEMPLATE.md YOUR_MODEL_ANALYSIS.md
+   ```
+
+2. **Fill in placeholders** using data from the JSON/CSV reports:
+   - `phase1_targets.json` - Layer classifications and compositional kappa
+   - `gradient_attack_results.json` - FGSM, PGD, BIM, MIM attack results
+   - `complete_analysis.json` - Full analysis data
+   - `layer_summary.csv` - Per-layer κ, σ_min, σ_max values
+   - `high_value_targets.json` - Priority attack targets
+   - `attack_summary.json` - Attack results and exploit classifications
+   - `phase5_reproducibility.json` - Reproducibility test results
+
+3. **Reference the example report** for formatting guidance:
+   - `latent_space_framework/reports/REDTEAM_ANALYSIS_REPORT.md` (if available)
+
+### Report Structure
+
+The template includes all required sections:
+- Executive Summary with assessment table
+- Methodology overview (6-phase pipeline)
+- Detailed results for all 6 phases
+- Technical findings (Jacobian analysis, singular values)
+- Key findings and insights
+- Red team and defender recommendations
+- Visual scorecards (ASCII art)
+- Risk matrices
+- Metrics reference appendix
+
+### Important Notes
+
+- **Always use the template** - Do not create reports from scratch
+- **Replace all placeholders** - Use `[BRACKETS]` format for placeholders
+- **Maintain structure** - Keep the same sections and formatting
+- **Include visuals** - Use ASCII art for scorecards and risk matrices
+- **Save with timestamp** - Include date/time in filename to avoid overwriting
+- **Key metrics:** Focus on κ (condition number), σ_max/σ_min (singular values), κ_comp (compositional kappa)
+
+See `latent_space_framework/reports/templates/README.md` for detailed usage instructions.
