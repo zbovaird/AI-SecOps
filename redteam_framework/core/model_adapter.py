@@ -464,3 +464,8 @@ class ModelAdapter:
 def load_model(model_id: str, **kwargs) -> ModelAdapter:
     """Convenience function to load a model."""
     return ModelAdapter.load(model_id, **kwargs)
+
+
+
+
+

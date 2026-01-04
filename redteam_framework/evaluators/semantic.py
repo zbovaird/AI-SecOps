@@ -218,3 +218,8 @@ class SemanticEvaluator(BaseEvaluator):
         """
         result = self.evaluate(text1, text2)
         return result.evidence.get("similarity", 0.0)
+
+
+
+
+
