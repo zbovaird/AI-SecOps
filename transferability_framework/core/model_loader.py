@@ -6,12 +6,36 @@ for CKA analysis. Supports memory-efficient sequential loading.
 """
 
 import torch
-from typing import List, Dict, Optional, Tuple, Any
+import numpy as np
+from typing import List, Dict, Optional, Tuple, Any, Union
 from dataclasses import dataclass, field
 import logging
 import gc
 
 logger = logging.getLogger("transferability.model_loader")
+
+
+def ensure_numpy_compatible(tensor: Union[torch.Tensor, np.ndarray]) -> Union[torch.Tensor, np.ndarray]:
+    """
+    Convert tensor to float32 if it's bfloat16 or other unsupported types for NumPy.
+    
+    Args:
+        tensor: Input tensor or array
+        
+    Returns:
+        Tensor compatible with NumPy operations
+    """
+    if isinstance(tensor, torch.Tensor):
+        if tensor.dtype == torch.bfloat16:
+            return tensor.float()
+        # Also handle other potentially problematic types
+        if tensor.dtype not in [torch.float32, torch.float64, torch.float16]:
+            try:
+                # Try to convert to float32
+                return tensor.float()
+            except:
+                pass
+    return tensor
 
 
 @dataclass
@@ -74,9 +98,8 @@ class HiddenStateResult:
     
     def to_numpy(self) -> Dict[int, Any]:
         """Convert all tensors to numpy arrays."""
-        import numpy as np
         return {
-            layer: states.cpu().numpy() if torch.is_tensor(states) else states
+            layer: ensure_numpy_compatible(states).cpu().numpy() if torch.is_tensor(states) else states
             for layer, states in self.layer_states.items()
         }
 
