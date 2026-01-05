@@ -1,0 +1,68 @@
+{
+  "model": "google/gemma-2-2b-it",
+  "analysis_date": "2025-12-07",
+  "device": "cuda",
+  "phase1_latent_space_mapping": {
+    "total_layers_analyzed": 211,
+    "similarity_matrix_size": "211x211",
+    "total_basins_identified_original": 211,
+    "note": "Original thresholds flagged all layers"
+  },
+  "phase1_corrected": {
+    "vulnerability_basins": 23,
+    "note": "Corrected thresholds identify genuine vulnerabilities"
+  },
+  "phase2_attention_analysis": {
+    "susceptible_heads": 0,
+    "note": "Attention analysis completed"
+  },
+  "phase3_perturbation_probing": {
+    "total_perturbations": 21,
+    "variation_types": [
+      "whitespace_variation",
+      "uppercase",
+      "repeated_words",
+      "special_chars",
+      "prefix_noise",
+      "suffix_noise",
+      "extra_spaces"
+    ],
+    "most_effective": "uppercase"
+  },
+  "phase4_vulnerability_basin_steering": {
+    "collapse_candidates": 21,
+    "target_layers": [
+      "model.embed_tokens",
+      "model.layers.1.mlp.down_proj",
+      "model.layers.2.post_attention_layernorm",
+      "model.layers.2.mlp.down_proj",
+      "model.layers.3.mlp.down_proj"
+    ],
+    "note": "Tested perturbations on vulnerability basins"
+  },
+  "phase5_collapse_attempt": {
+    "profiles_analyzed": 5,
+    "collapse_detected": 0,
+    "note": "Analyzed evolution of perturbations"
+  },
+  "key_findings": {
+    "vulnerability_basins_found": 23,
+    "most_effective_perturbation": "uppercase",
+    "model_resilience": "High - No complete collapse detected",
+    "partial_effects": "Yes - Perturbations affect vulnerable layers",
+    "total_layers_analyzed": 211,
+    "perturbations_tested": 21
+  },
+  "risk_assessment": {
+    "severity": "Medium",
+    "exploitability": "Low",
+    "impact": "Partial - Vulnerable layers identified but model resists collapse",
+    "recommendations": [
+      "Monitor the 23 identified vulnerability basins",
+      "Test uppercase and repeated-word inputs more thoroughly",
+      "Consider fine-tuning vulnerable layers",
+      "Implement input validation for suspicious patterns",
+      "Regular monitoring of layer variance and entropy"
+    ]
+  }
+}

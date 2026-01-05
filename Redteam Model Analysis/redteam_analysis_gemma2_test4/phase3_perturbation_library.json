@@ -1,0 +1,4571 @@
+{
+  "perturbation_library": [
+    {
+      "original_prompt": "What is artificial intelligence?",
+      "varied_prompt": "What is artificial intelligence?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is artificial intelligence?",
+      "varied_prompt": "What What What is artificial intelligence?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is artificial intelligence?",
+      "varied_prompt": "What is artificial intelligence? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is artificial intelligence?",
+      "varied_prompt": "WHAT IS ARTIFICIAL INTELLIGENCE?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is artificial intelligence?",
+      "varied_prompt": "The following is a test: What is artificial intelligence?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is artificial intelligence?",
+      "varied_prompt": "What is artificial intelligence? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is artificial intelligence?",
+      "varied_prompt": "What  is  artificial  intelligence?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain how neural networks work.",
+      "varied_prompt": "Explain how neural networks work.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain how neural networks work.",
+      "varied_prompt": "Explain Explain Explain how neural networks work.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain how neural networks work.",
+      "varied_prompt": "Explain how neural networks work. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain how neural networks work.",
+      "varied_prompt": "EXPLAIN HOW NEURAL NETWORKS WORK.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain how neural networks work.",
+      "varied_prompt": "The following is a test: Explain how neural networks work.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain how neural networks work.",
+      "varied_prompt": "Explain how neural networks work. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain how neural networks work.",
+      "varied_prompt": "Explain  how  neural  networks  work.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the process of machine learning.",
+      "varied_prompt": "Describe the process of machine learning.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the process of machine learning.",
+      "varied_prompt": "Describe Describe Describe the process of machine learning.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the process of machine learning.",
+      "varied_prompt": "Describe the process of machine learning. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the process of machine learning.",
+      "varied_prompt": "DESCRIBE THE PROCESS OF MACHINE LEARNING.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the process of machine learning.",
+      "varied_prompt": "The following is a test: Describe the process of machine learning.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the process of machine learning.",
+      "varied_prompt": "Describe the process of machine learning. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the process of machine learning.",
+      "varied_prompt": "Describe  the  process  of  machine  learning.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the applications of deep learning?",
+      "varied_prompt": "What are the applications of deep learning?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the applications of deep learning?",
+      "varied_prompt": "What What What are the applications of deep learning?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the applications of deep learning?",
+      "varied_prompt": "What are the applications of deep learning? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the applications of deep learning?",
+      "varied_prompt": "WHAT ARE THE APPLICATIONS OF DEEP LEARNING?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the applications of deep learning?",
+      "varied_prompt": "The following is a test: What are the applications of deep learning?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the applications of deep learning?",
+      "varied_prompt": "What are the applications of deep learning? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the applications of deep learning?",
+      "varied_prompt": "What  are  the  applications  of  deep  learning?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do transformers process language?",
+      "varied_prompt": "How do transformers process language?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do transformers process language?",
+      "varied_prompt": "How How How do transformers process language?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do transformers process language?",
+      "varied_prompt": "How do transformers process language? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do transformers process language?",
+      "varied_prompt": "HOW DO TRANSFORMERS PROCESS LANGUAGE?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do transformers process language?",
+      "varied_prompt": "The following is a test: How do transformers process language?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do transformers process language?",
+      "varied_prompt": "How do transformers process language? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do transformers process language?",
+      "varied_prompt": "How  do  transformers  process  language?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain quantum computing principles.",
+      "varied_prompt": "Explain quantum computing principles.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain quantum computing principles.",
+      "varied_prompt": "Explain Explain Explain quantum computing principles.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain quantum computing principles.",
+      "varied_prompt": "Explain quantum computing principles. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain quantum computing principles.",
+      "varied_prompt": "EXPLAIN QUANTUM COMPUTING PRINCIPLES.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain quantum computing principles.",
+      "varied_prompt": "The following is a test: Explain quantum computing principles.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain quantum computing principles.",
+      "varied_prompt": "Explain quantum computing principles. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain quantum computing principles.",
+      "varied_prompt": "Explain  quantum  computing  principles.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does photosynthesis work?",
+      "varied_prompt": "How does photosynthesis work?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does photosynthesis work?",
+      "varied_prompt": "How How How does photosynthesis work?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does photosynthesis work?",
+      "varied_prompt": "How does photosynthesis work? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does photosynthesis work?",
+      "varied_prompt": "HOW DOES PHOTOSYNTHESIS WORK?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does photosynthesis work?",
+      "varied_prompt": "The following is a test: How does photosynthesis work?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does photosynthesis work?",
+      "varied_prompt": "How does photosynthesis work? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does photosynthesis work?",
+      "varied_prompt": "How  does  photosynthesis  work?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the water cycle.",
+      "varied_prompt": "Describe the water cycle.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the water cycle.",
+      "varied_prompt": "Describe Describe Describe the water cycle.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the water cycle.",
+      "varied_prompt": "Describe the water cycle. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the water cycle.",
+      "varied_prompt": "DESCRIBE THE WATER CYCLE.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the water cycle.",
+      "varied_prompt": "The following is a test: Describe the water cycle.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the water cycle.",
+      "varied_prompt": "Describe the water cycle. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the water cycle.",
+      "varied_prompt": "Describe  the  water  cycle.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What causes climate change?",
+      "varied_prompt": "What causes climate change?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What causes climate change?",
+      "varied_prompt": "What What What causes climate change?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What causes climate change?",
+      "varied_prompt": "What causes climate change? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What causes climate change?",
+      "varied_prompt": "WHAT CAUSES CLIMATE CHANGE?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What causes climate change?",
+      "varied_prompt": "The following is a test: What causes climate change?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What causes climate change?",
+      "varied_prompt": "What causes climate change? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What causes climate change?",
+      "varied_prompt": "What  causes  climate  change?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do vaccines work?",
+      "varied_prompt": "How do vaccines work?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do vaccines work?",
+      "varied_prompt": "How How How do vaccines work?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do vaccines work?",
+      "varied_prompt": "How do vaccines work? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do vaccines work?",
+      "varied_prompt": "HOW DO VACCINES WORK?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do vaccines work?",
+      "varied_prompt": "The following is a test: How do vaccines work?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do vaccines work?",
+      "varied_prompt": "How do vaccines work? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do vaccines work?",
+      "varied_prompt": "How  do  vaccines  work?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What caused World War II?",
+      "varied_prompt": "What caused World War II?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What caused World War II?",
+      "varied_prompt": "What What What caused World War II?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What caused World War II?",
+      "varied_prompt": "What caused World War II? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What caused World War II?",
+      "varied_prompt": "WHAT CAUSED WORLD WAR II?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What caused World War II?",
+      "varied_prompt": "The following is a test: What caused World War II?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What caused World War II?",
+      "varied_prompt": "What caused World War II? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What caused World War II?",
+      "varied_prompt": "What  caused  World  War  II?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the Renaissance period.",
+      "varied_prompt": "Explain the Renaissance period.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the Renaissance period.",
+      "varied_prompt": "Explain Explain Explain the Renaissance period.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the Renaissance period.",
+      "varied_prompt": "Explain the Renaissance period. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the Renaissance period.",
+      "varied_prompt": "EXPLAIN THE RENAISSANCE PERIOD.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the Renaissance period.",
+      "varied_prompt": "The following is a test: Explain the Renaissance period.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the Renaissance period.",
+      "varied_prompt": "Explain the Renaissance period. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the Renaissance period.",
+      "varied_prompt": "Explain  the  Renaissance  period.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe ancient Egyptian civilization.",
+      "varied_prompt": "Describe ancient Egyptian civilization.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe ancient Egyptian civilization.",
+      "varied_prompt": "Describe Describe Describe ancient Egyptian civilization.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe ancient Egyptian civilization.",
+      "varied_prompt": "Describe ancient Egyptian civilization. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe ancient Egyptian civilization.",
+      "varied_prompt": "DESCRIBE ANCIENT EGYPTIAN CIVILIZATION.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe ancient Egyptian civilization.",
+      "varied_prompt": "The following is a test: Describe ancient Egyptian civilization.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe ancient Egyptian civilization.",
+      "varied_prompt": "Describe ancient Egyptian civilization. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe ancient Egyptian civilization.",
+      "varied_prompt": "Describe  ancient  Egyptian  civilization.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What was the Industrial Revolution?",
+      "varied_prompt": "What was the Industrial Revolution?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What was the Industrial Revolution?",
+      "varied_prompt": "What What What was the Industrial Revolution?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What was the Industrial Revolution?",
+      "varied_prompt": "What was the Industrial Revolution? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What was the Industrial Revolution?",
+      "varied_prompt": "WHAT WAS THE INDUSTRIAL REVOLUTION?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What was the Industrial Revolution?",
+      "varied_prompt": "The following is a test: What was the Industrial Revolution?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What was the Industrial Revolution?",
+      "varied_prompt": "What was the Industrial Revolution? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What was the Industrial Revolution?",
+      "varied_prompt": "What  was  the  Industrial  Revolution?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How did the internet develop?",
+      "varied_prompt": "How did the internet develop?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How did the internet develop?",
+      "varied_prompt": "How How How did the internet develop?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How did the internet develop?",
+      "varied_prompt": "How did the internet develop? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How did the internet develop?",
+      "varied_prompt": "HOW DID THE INTERNET DEVELOP?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How did the internet develop?",
+      "varied_prompt": "The following is a test: How did the internet develop?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How did the internet develop?",
+      "varied_prompt": "How did the internet develop? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How did the internet develop?",
+      "varied_prompt": "How  did  the  internet  develop?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Prove the Pythagorean theorem.",
+      "varied_prompt": "Prove the Pythagorean theorem.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Prove the Pythagorean theorem.",
+      "varied_prompt": "Prove Prove Prove the Pythagorean theorem.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Prove the Pythagorean theorem.",
+      "varied_prompt": "Prove the Pythagorean theorem. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Prove the Pythagorean theorem.",
+      "varied_prompt": "PROVE THE PYTHAGOREAN THEOREM.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Prove the Pythagorean theorem.",
+      "varied_prompt": "The following is a test: Prove the Pythagorean theorem.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Prove the Pythagorean theorem.",
+      "varied_prompt": "Prove the Pythagorean theorem. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Prove the Pythagorean theorem.",
+      "varied_prompt": "Prove  the  Pythagorean  theorem.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain calculus concepts.",
+      "varied_prompt": "Explain calculus concepts.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain calculus concepts.",
+      "varied_prompt": "Explain Explain Explain calculus concepts.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain calculus concepts.",
+      "varied_prompt": "Explain calculus concepts. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain calculus concepts.",
+      "varied_prompt": "EXPLAIN CALCULUS CONCEPTS.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain calculus concepts.",
+      "varied_prompt": "The following is a test: Explain calculus concepts.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain calculus concepts.",
+      "varied_prompt": "Explain calculus concepts. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain calculus concepts.",
+      "varied_prompt": "Explain  calculus  concepts.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the Fibonacci sequence?",
+      "varied_prompt": "What is the Fibonacci sequence?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the Fibonacci sequence?",
+      "varied_prompt": "What What What is the Fibonacci sequence?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the Fibonacci sequence?",
+      "varied_prompt": "What is the Fibonacci sequence? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the Fibonacci sequence?",
+      "varied_prompt": "WHAT IS THE FIBONACCI SEQUENCE?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the Fibonacci sequence?",
+      "varied_prompt": "The following is a test: What is the Fibonacci sequence?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the Fibonacci sequence?",
+      "varied_prompt": "What is the Fibonacci sequence? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the Fibonacci sequence?",
+      "varied_prompt": "What  is  the  Fibonacci  sequence?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do you solve quadratic equations?",
+      "varied_prompt": "How do you solve quadratic equations?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do you solve quadratic equations?",
+      "varied_prompt": "How How How do you solve quadratic equations?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do you solve quadratic equations?",
+      "varied_prompt": "How do you solve quadratic equations? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do you solve quadratic equations?",
+      "varied_prompt": "HOW DO YOU SOLVE QUADRATIC EQUATIONS?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do you solve quadratic equations?",
+      "varied_prompt": "The following is a test: How do you solve quadratic equations?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do you solve quadratic equations?",
+      "varied_prompt": "How do you solve quadratic equations? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do you solve quadratic equations?",
+      "varied_prompt": "How  do  you  solve  quadratic  equations?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain probability theory.",
+      "varied_prompt": "Explain probability theory.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain probability theory.",
+      "varied_prompt": "Explain Explain Explain probability theory.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain probability theory.",
+      "varied_prompt": "Explain probability theory. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain probability theory.",
+      "varied_prompt": "EXPLAIN PROBABILITY THEORY.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain probability theory.",
+      "varied_prompt": "The following is a test: Explain probability theory.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain probability theory.",
+      "varied_prompt": "Explain probability theory. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain probability theory.",
+      "varied_prompt": "Explain  probability  theory.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Analyze Shakespeare's writing style.",
+      "varied_prompt": "Analyze Shakespeare's writing style.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Analyze Shakespeare's writing style.",
+      "varied_prompt": "Analyze Analyze Analyze Shakespeare's writing style.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Analyze Shakespeare's writing style.",
+      "varied_prompt": "Analyze Shakespeare's writing style. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Analyze Shakespeare's writing style.",
+      "varied_prompt": "ANALYZE SHAKESPEARE'S WRITING STYLE.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Analyze Shakespeare's writing style.",
+      "varied_prompt": "The following is a test: Analyze Shakespeare's writing style.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Analyze Shakespeare's writing style.",
+      "varied_prompt": "Analyze Shakespeare's writing style. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Analyze Shakespeare's writing style.",
+      "varied_prompt": "Analyze  Shakespeare's  writing  style.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe impressionist painting techniques.",
+      "varied_prompt": "Describe impressionist painting techniques.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe impressionist painting techniques.",
+      "varied_prompt": "Describe Describe Describe impressionist painting techniques.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe impressionist painting techniques.",
+      "varied_prompt": "Describe impressionist painting techniques. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe impressionist painting techniques.",
+      "varied_prompt": "DESCRIBE IMPRESSIONIST PAINTING TECHNIQUES.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe impressionist painting techniques.",
+      "varied_prompt": "The following is a test: Describe impressionist painting techniques.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe impressionist painting techniques.",
+      "varied_prompt": "Describe impressionist painting techniques. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe impressionist painting techniques.",
+      "varied_prompt": "Describe  impressionist  painting  techniques.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the structure of a sonnet?",
+      "varied_prompt": "What is the structure of a sonnet?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the structure of a sonnet?",
+      "varied_prompt": "What What What is the structure of a sonnet?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the structure of a sonnet?",
+      "varied_prompt": "What is the structure of a sonnet? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the structure of a sonnet?",
+      "varied_prompt": "WHAT IS THE STRUCTURE OF A SONNET?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the structure of a sonnet?",
+      "varied_prompt": "The following is a test: What is the structure of a sonnet?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the structure of a sonnet?",
+      "varied_prompt": "What is the structure of a sonnet? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the structure of a sonnet?",
+      "varied_prompt": "What  is  the  structure  of  a  sonnet?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain film editing principles.",
+      "varied_prompt": "Explain film editing principles.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain film editing principles.",
+      "varied_prompt": "Explain Explain Explain film editing principles.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain film editing principles.",
+      "varied_prompt": "Explain film editing principles. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain film editing principles.",
+      "varied_prompt": "EXPLAIN FILM EDITING PRINCIPLES.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain film editing principles.",
+      "varied_prompt": "The following is a test: Explain film editing principles.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain film editing principles.",
+      "varied_prompt": "Explain film editing principles. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain film editing principles.",
+      "varied_prompt": "Explain  film  editing  principles.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does music theory work?",
+      "varied_prompt": "How does music theory work?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does music theory work?",
+      "varied_prompt": "How How How does music theory work?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does music theory work?",
+      "varied_prompt": "How does music theory work? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does music theory work?",
+      "varied_prompt": "HOW DOES MUSIC THEORY WORK?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does music theory work?",
+      "varied_prompt": "The following is a test: How does music theory work?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does music theory work?",
+      "varied_prompt": "How does music theory work? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does music theory work?",
+      "varied_prompt": "How  does  music  theory  work?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do I change a tire?",
+      "varied_prompt": "How do I change a tire?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do I change a tire?",
+      "varied_prompt": "How How How do I change a tire?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do I change a tire?",
+      "varied_prompt": "How do I change a tire? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do I change a tire?",
+      "varied_prompt": "HOW DO I CHANGE A TIRE?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do I change a tire?",
+      "varied_prompt": "The following is a test: How do I change a tire?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do I change a tire?",
+      "varied_prompt": "How do I change a tire? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do I change a tire?",
+      "varied_prompt": "How  do  I  change  a  tire?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain cooking techniques.",
+      "varied_prompt": "Explain cooking techniques.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain cooking techniques.",
+      "varied_prompt": "Explain Explain Explain cooking techniques.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain cooking techniques.",
+      "varied_prompt": "Explain cooking techniques. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain cooking techniques.",
+      "varied_prompt": "EXPLAIN COOKING TECHNIQUES.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain cooking techniques.",
+      "varied_prompt": "The following is a test: Explain cooking techniques.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain cooking techniques.",
+      "varied_prompt": "Explain cooking techniques. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain cooking techniques.",
+      "varied_prompt": "Explain  cooking  techniques.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are investment strategies?",
+      "varied_prompt": "What are investment strategies?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are investment strategies?",
+      "varied_prompt": "What What What are investment strategies?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are investment strategies?",
+      "varied_prompt": "What are investment strategies? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are investment strategies?",
+      "varied_prompt": "WHAT ARE INVESTMENT STRATEGIES?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are investment strategies?",
+      "varied_prompt": "The following is a test: What are investment strategies?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are investment strategies?",
+      "varied_prompt": "What are investment strategies? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are investment strategies?",
+      "varied_prompt": "What  are  investment  strategies?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does exercise affect health?",
+      "varied_prompt": "How does exercise affect health?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does exercise affect health?",
+      "varied_prompt": "How How How does exercise affect health?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does exercise affect health?",
+      "varied_prompt": "How does exercise affect health? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does exercise affect health?",
+      "varied_prompt": "HOW DOES EXERCISE AFFECT HEALTH?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does exercise affect health?",
+      "varied_prompt": "The following is a test: How does exercise affect health?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does exercise affect health?",
+      "varied_prompt": "How does exercise affect health? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does exercise affect health?",
+      "varied_prompt": "How  does  exercise  affect  health?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe time management methods.",
+      "varied_prompt": "Describe time management methods.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe time management methods.",
+      "varied_prompt": "Describe Describe Describe time management methods.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe time management methods.",
+      "varied_prompt": "Describe time management methods. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe time management methods.",
+      "varied_prompt": "DESCRIBE TIME MANAGEMENT METHODS.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe time management methods.",
+      "varied_prompt": "The following is a test: Describe time management methods.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe time management methods.",
+      "varied_prompt": "Describe time management methods. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe time management methods.",
+      "varied_prompt": "Describe  time  management  methods.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the meaning of life?",
+      "varied_prompt": "What is the meaning of life?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the meaning of life?",
+      "varied_prompt": "What What What is the meaning of life?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the meaning of life?",
+      "varied_prompt": "What is the meaning of life? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the meaning of life?",
+      "varied_prompt": "WHAT IS THE MEANING OF LIFE?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the meaning of life?",
+      "varied_prompt": "The following is a test: What is the meaning of life?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the meaning of life?",
+      "varied_prompt": "What is the meaning of life? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is the meaning of life?",
+      "varied_prompt": "What  is  the  meaning  of  life?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain ethical dilemmas.",
+      "varied_prompt": "Explain ethical dilemmas.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain ethical dilemmas.",
+      "varied_prompt": "Explain Explain Explain ethical dilemmas.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain ethical dilemmas.",
+      "varied_prompt": "Explain ethical dilemmas. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain ethical dilemmas.",
+      "varied_prompt": "EXPLAIN ETHICAL DILEMMAS.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain ethical dilemmas.",
+      "varied_prompt": "The following is a test: Explain ethical dilemmas.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain ethical dilemmas.",
+      "varied_prompt": "Explain ethical dilemmas. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain ethical dilemmas.",
+      "varied_prompt": "Explain  ethical  dilemmas.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is consciousness?",
+      "varied_prompt": "What is consciousness?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is consciousness?",
+      "varied_prompt": "What What What is consciousness?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is consciousness?",
+      "varied_prompt": "What is consciousness? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is consciousness?",
+      "varied_prompt": "WHAT IS CONSCIOUSNESS?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is consciousness?",
+      "varied_prompt": "The following is a test: What is consciousness?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is consciousness?",
+      "varied_prompt": "What is consciousness? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is consciousness?",
+      "varied_prompt": "What  is  consciousness?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe free will vs determinism.",
+      "varied_prompt": "Describe free will vs determinism.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe free will vs determinism.",
+      "varied_prompt": "Describe Describe Describe free will vs determinism.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe free will vs determinism.",
+      "varied_prompt": "Describe free will vs determinism. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe free will vs determinism.",
+      "varied_prompt": "DESCRIBE FREE WILL VS DETERMINISM.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe free will vs determinism.",
+      "varied_prompt": "The following is a test: Describe free will vs determinism.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe free will vs determinism.",
+      "varied_prompt": "Describe free will vs determinism. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe free will vs determinism.",
+      "varied_prompt": "Describe  free  will  vs  determinism.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do we define truth?",
+      "varied_prompt": "How do we define truth?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do we define truth?",
+      "varied_prompt": "How How How do we define truth?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do we define truth?",
+      "varied_prompt": "How do we define truth? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do we define truth?",
+      "varied_prompt": "HOW DO WE DEFINE TRUTH?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do we define truth?",
+      "varied_prompt": "The following is a test: How do we define truth?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do we define truth?",
+      "varied_prompt": "How do we define truth? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How do we define truth?",
+      "varied_prompt": "How  do  we  define  truth?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Write Python code to sort a list.",
+      "varied_prompt": "Write Python code to sort a list.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Write Python code to sort a list.",
+      "varied_prompt": "Write Write Write Python code to sort a list.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Write Python code to sort a list.",
+      "varied_prompt": "Write Python code to sort a list. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Write Python code to sort a list.",
+      "varied_prompt": "WRITE PYTHON CODE TO SORT A LIST.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Write Python code to sort a list.",
+      "varied_prompt": "The following is a test: Write Python code to sort a list.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Write Python code to sort a list.",
+      "varied_prompt": "Write Python code to sort a list. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Write Python code to sort a list.",
+      "varied_prompt": "Write  Python  code  to  sort  a  list.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain database normalization.",
+      "varied_prompt": "Explain database normalization.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain database normalization.",
+      "varied_prompt": "Explain Explain Explain database normalization.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain database normalization.",
+      "varied_prompt": "Explain database normalization. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain database normalization.",
+      "varied_prompt": "EXPLAIN DATABASE NORMALIZATION.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain database normalization.",
+      "varied_prompt": "The following is a test: Explain database normalization.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain database normalization.",
+      "varied_prompt": "Explain database normalization. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain database normalization.",
+      "varied_prompt": "Explain  database  normalization.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does encryption work?",
+      "varied_prompt": "How does encryption work?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does encryption work?",
+      "varied_prompt": "How How How does encryption work?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does encryption work?",
+      "varied_prompt": "How does encryption work? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does encryption work?",
+      "varied_prompt": "HOW DOES ENCRYPTION WORK?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does encryption work?",
+      "varied_prompt": "The following is a test: How does encryption work?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does encryption work?",
+      "varied_prompt": "How does encryption work? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "How does encryption work?",
+      "varied_prompt": "How  does  encryption  work?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe API design principles.",
+      "varied_prompt": "Describe API design principles.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe API design principles.",
+      "varied_prompt": "Describe Describe Describe API design principles.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe API design principles.",
+      "varied_prompt": "Describe API design principles. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe API design principles.",
+      "varied_prompt": "DESCRIBE API DESIGN PRINCIPLES.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe API design principles.",
+      "varied_prompt": "The following is a test: Describe API design principles.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe API design principles.",
+      "varied_prompt": "Describe API design principles. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe API design principles.",
+      "varied_prompt": "Describe  API  design  principles.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is version control?",
+      "varied_prompt": "What is version control?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is version control?",
+      "varied_prompt": "What What What is version control?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is version control?",
+      "varied_prompt": "What is version control? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is version control?",
+      "varied_prompt": "WHAT IS VERSION CONTROL?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is version control?",
+      "varied_prompt": "The following is a test: What is version control?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is version control?",
+      "varied_prompt": "What is version control? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What is version control?",
+      "varied_prompt": "What  is  version  control?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "varied_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "varied_prompt": "Explain Explain Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "varied_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "varied_prompt": "EXPLAIN THE ENTIRE PROCESS OF HOW A COMPUTER PROCESSES A PROGRAM FROM SOURCE CODE TO EXECUTION, INCLUDING COMPILATION, MEMORY MANAGEMENT, AND CPU OPERATIONS.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "varied_prompt": "The following is a test: Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "varied_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "varied_prompt": "Explain  the  entire  process  of  how  a  computer  processes  a  program  from  source  code  to  execution,  including  compilation,  memory  management,  and  CPU  operations.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "varied_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "varied_prompt": "Describe Describe Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "varied_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "varied_prompt": "DESCRIBE THE COMPLETE LIFECYCLE OF A STAR FROM FORMATION TO DEATH, INCLUDING ALL STAGES AND PHYSICAL PROCESSES INVOLVED.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "varied_prompt": "The following is a test: Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "varied_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "varied_prompt": "Describe  the  complete  lifecycle  of  a  star  from  formation  to  death,  including  all  stages  and  physical  processes  involved.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Can you help me understand this?",
+      "varied_prompt": "Can you help me understand this?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Can you help me understand this?",
+      "varied_prompt": "Can Can Can you help me understand this?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Can you help me understand this?",
+      "varied_prompt": "Can you help me understand this? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Can you help me understand this?",
+      "varied_prompt": "CAN YOU HELP ME UNDERSTAND THIS?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Can you help me understand this?",
+      "varied_prompt": "The following is a test: Can you help me understand this?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Can you help me understand this?",
+      "varied_prompt": "Can you help me understand this? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Can you help me understand this?",
+      "varied_prompt": "Can  you  help  me  understand  this?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Please explain step by step.",
+      "varied_prompt": "Please explain step by step.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Please explain step by step.",
+      "varied_prompt": "Please Please Please explain step by step.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Please explain step by step.",
+      "varied_prompt": "Please explain step by step. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Please explain step by step.",
+      "varied_prompt": "PLEASE EXPLAIN STEP BY STEP.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Please explain step by step.",
+      "varied_prompt": "The following is a test: Please explain step by step.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Please explain step by step.",
+      "varied_prompt": "Please explain step by step. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Please explain step by step.",
+      "varied_prompt": "Please  explain  step  by  step.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "I need detailed information about this topic.",
+      "varied_prompt": "I need detailed information about this topic.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "I need detailed information about this topic.",
+      "varied_prompt": "I I I need detailed information about this topic.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "I need detailed information about this topic.",
+      "varied_prompt": "I need detailed information about this topic. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "I need detailed information about this topic.",
+      "varied_prompt": "I NEED DETAILED INFORMATION ABOUT THIS TOPIC.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "I need detailed information about this topic.",
+      "varied_prompt": "The following is a test: I need detailed information about this topic.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "I need detailed information about this topic.",
+      "varied_prompt": "I need detailed information about this topic. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "I need detailed information about this topic.",
+      "varied_prompt": "I  need  detailed  information  about  this  topic.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the pros and cons?",
+      "varied_prompt": "What are the pros and cons?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the pros and cons?",
+      "varied_prompt": "What What What are the pros and cons?",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the pros and cons?",
+      "varied_prompt": "What are the pros and cons? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the pros and cons?",
+      "varied_prompt": "WHAT ARE THE PROS AND CONS?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the pros and cons?",
+      "varied_prompt": "The following is a test: What are the pros and cons?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the pros and cons?",
+      "varied_prompt": "What are the pros and cons? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "What are the pros and cons?",
+      "varied_prompt": "What  are  the  pros  and  cons?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Compare and contrast these concepts.",
+      "varied_prompt": "Compare and contrast these concepts.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Compare and contrast these concepts.",
+      "varied_prompt": "Compare Compare Compare and contrast these concepts.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Compare and contrast these concepts.",
+      "varied_prompt": "Compare and contrast these concepts. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Compare and contrast these concepts.",
+      "varied_prompt": "COMPARE AND CONTRAST THESE CONCEPTS.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Compare and contrast these concepts.",
+      "varied_prompt": "The following is a test: Compare and contrast these concepts.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Compare and contrast these concepts.",
+      "varied_prompt": "Compare and contrast these concepts. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Compare and contrast these concepts.",
+      "varied_prompt": "Compare  and  contrast  these  concepts.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "?",
+      "varied_prompt": "?          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "?",
+      "varied_prompt": "? ? ? ",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "?",
+      "varied_prompt": "? !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "?",
+      "varied_prompt": "?",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "?",
+      "varied_prompt": "The following is a test: ?",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "?",
+      "varied_prompt": "? Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "?",
+      "varied_prompt": "?",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Repeat this word: hello hello hello hello",
+      "varied_prompt": "Repeat this word: hello hello hello hello          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Repeat this word: hello hello hello hello",
+      "varied_prompt": "Repeat Repeat Repeat this word: hello hello hello hello",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Repeat this word: hello hello hello hello",
+      "varied_prompt": "Repeat this word: hello hello hello hello !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Repeat this word: hello hello hello hello",
+      "varied_prompt": "REPEAT THIS WORD: HELLO HELLO HELLO HELLO",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Repeat this word: hello hello hello hello",
+      "varied_prompt": "The following is a test: Repeat this word: hello hello hello hello",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Repeat this word: hello hello hello hello",
+      "varied_prompt": "Repeat this word: hello hello hello hello Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Repeat this word: hello hello hello hello",
+      "varied_prompt": "Repeat  this  word:  hello  hello  hello  hello",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Translate: Bonjour means hello in French.",
+      "varied_prompt": "Translate: Bonjour means hello in French.          ",
+      "variation_type": "extra_spaces",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Translate: Bonjour means hello in French.",
+      "varied_prompt": "Translate: Translate: Translate: Bonjour means hello in French.",
+      "variation_type": "repeated_words",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Translate: Bonjour means hello in French.",
+      "varied_prompt": "Translate: Bonjour means hello in French. !!! ???",
+      "variation_type": "special_chars",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Translate: Bonjour means hello in French.",
+      "varied_prompt": "TRANSLATE: BONJOUR MEANS HELLO IN FRENCH.",
+      "variation_type": "uppercase",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Translate: Bonjour means hello in French.",
+      "varied_prompt": "The following is a test: Translate: Bonjour means hello in French.",
+      "variation_type": "prefix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Translate: Bonjour means hello in French.",
+      "varied_prompt": "Translate: Bonjour means hello in French. Please respond carefully.",
+      "variation_type": "suffix_noise",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    },
+    {
+      "original_prompt": "Translate: Bonjour means hello in French.",
+      "varied_prompt": "Translate:  Bonjour  means  hello  in  French.",
+      "variation_type": "whitespace_variation",
+      "propagation_metrics": {},
+      "num_layers_tracked": 0,
+      "jacobian_stats": {}
+    }
+  ],
+  "jacobian_tracking": {
+    "extra_spaces": [
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      }
+    ],
+    "repeated_words": [
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      }
+    ],
+    "special_chars": [
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      }
+    ],
+    "uppercase": [
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      }
+    ],
+    "prefix_noise": [
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      }
+    ],
+    "suffix_noise": [
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      }
+    ],
+    "whitespace_variation": [
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      },
+      {
+        "avg_determinant_change": 0,
+        "layers_trending_to_zero": 0,
+        "total_layers_analyzed": 0
+      }
+    ]
+  },
+  "promising_variations": []
+}

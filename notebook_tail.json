@@ -1,0 +1,97 @@
+,
+{
+    "cell_type": "code",
+    "execution_count": null,
+    "metadata": {
+        "id": "replacement_encoding"
+    },
+    "outputs": [],
+    "source": [
+        "print(\"=\" * 60)\n",
+        "print(\"Phase 9: Encoding Attacks - MOVED\")\n",
+        "print(\"=\" * 60)\n",
+        "print(\"Reference: pyrit_redteaming.ipynb for encoding/injection testing\")\n"
+    ]
+},
+{
+    "cell_type": "code",
+    "execution_count": null,
+    "metadata": {
+        "id": "gradient_attack_fixed"
+    },
+    "outputs": [],
+    "source": [
+        "# Gradient-Based Adversarial Attacks (Restored)\n",
+        "print(\"=\" * 60)\n",
+        "print(\"Gradient-Based Adversarial Attacks\")\n",
+        "print(\"=\" * 60)\n",
+        "\n",
+        "import torch, gc, os\n",
+        "# Aggressive Cleanup for OOM\n",
+        "print(\"🧹 Cleaning up Phase variables to free VRAM...\")\n",
+        "cleanup_vars = [\"collapse_inducer\", \"instrumentation\", \"hook_analyzer\", \"phase3_jacobian_results\", \"jailbreak_results\", \"injection\"]\n",
+        "for var_name in cleanup_vars:\n",
+        "    if var_name in locals() or var_name in globals():\n",
+        "        try:\n",
+        "            exec(f\"del {var_name}\")\n",
+        "        except:\n",
+        "            pass\n",
+        "torch.cuda.empty_cache()\n",
+        "gc.collect()\n",
+        "os.environ[\"PYTORCH_CUDA_ALLOC_CONF\"] = \"expandable_segments:True\"\n",
+        "\n",
+        "# Gradient Checkpointing DISABLED (Critical for proper gradient flow on A100)\n",
+        "# model.gradient_checkpointing_enable()\n",
+        "\n",
+        "try:\n",
+        "    from redteam_kit.core.modules.gradient_attacks import GradientAttackEngine\n",
+        "    print(\"✓ Engine Loaded\")\n",
+        "except ImportError:\n",
+        "    print(\"⚠️ Installing ART...\")\n",
+        "    import subprocess\n",
+        "    subprocess.check_call([\"pip\", \"install\", \"adversarial-robustness-toolbox\", \"-q\"])\n",
+        "    from redteam_kit.core.modules.gradient_attacks import GradientAttackEngine\n",
+        "\n",
+        "if \"vulnerability_basins\" not in locals():\n",
+        "    print(\"⚠️ Vulnerability basins missing. Using fallback.\")\n",
+        "    target_layers = [\"model.layers.6.post_attention_layernorm\", \"model.layers.3.mlp\"]\n",
+        "else:\n",
+        "    target_layers = [b[\"layer_name\"] for b in vulnerability_basins]\n",
+        "    print(f\"✓ Targeting {len(target_layers)} basins\")\n",
+        "\n",
+        "# Initialize Engine\n",
+        "# Reduced instrumentation=None to save memory\n",
+        "engine = GradientAttackEngine(model, tokenizer, instrumentation=None)\n",
+        "\n",
+        "# Run Attacks\n",
+        "test_prompts = [\"What is artificial intelligence?\", \"Explain how neural networks work.\"]\n",
+        "print(f\"\\nPerforming attacks on {len(test_prompts)} prompts...\")\n",
+        "\n",
+        "results = engine.batch_attack(\n",
+        "    prompts=test_prompts,\n",
+        "    attack_type=\"fgsm\",\n",
+        "    epsilon=0.1,\n",
+        "    target_layers=target_layers\n",
+        ")\n",
+        "\n",
+        "print(\"✓ Gradient Attacks Complete\")\n",
+        "import json\n",
+        "with open(\"gradient_attack_results.json\", \"w\") as f:\n",
+        "    json.dump(results, f, indent=2)\n"
+    ]
+}
+],
+"metadata": {
+"kernelspec": {
+    "display_name": "Python 3",
+    "language": "python",
+    "name": "python3"
+},
+"language_info": {
+    "name": "python",
+    "version": "3.10"
+}
+},
+"nbformat": 4,
+"nbformat_minor": 0
+}

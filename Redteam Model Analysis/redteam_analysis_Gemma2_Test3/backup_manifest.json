@@ -1,0 +1,60 @@
+{
+  "backup_timestamp": "20251209_220759",
+  "backup_directory": "/content/drive/MyDrive/redteam_analysis_20251209_220759",
+  "model_analyzed": "google/gemma-2-2b-it",
+  "files_backed_up": 10,
+  "files": [
+    {
+      "filename": "phase1_latent_space_map.json",
+      "size_bytes": 1787383,
+      "backed_up": true
+    },
+    {
+      "filename": "phase2_attention_profiles.json",
+      "size_bytes": 905,
+      "backed_up": true
+    },
+    {
+      "filename": "phase3_perturbation_library.json",
+      "size_bytes": 144037,
+      "backed_up": true
+    },
+    {
+      "filename": "phase4_collapse_candidates.json",
+      "size_bytes": 911,
+      "backed_up": true
+    },
+    {
+      "filename": "phase5_collapse_profile.json",
+      "size_bytes": 29,
+      "backed_up": true
+    },
+    {
+      "filename": "phase7_summary.json",
+      "size_bytes": 1336,
+      "backed_up": true
+    },
+    {
+      "filename": "phase8_jailbreak_analysis.json",
+      "size_bytes": 2002,
+      "backed_up": true
+    },
+    {
+      "filename": "phase9_injection_analysis.json",
+      "size_bytes": 1650,
+      "backed_up": true
+    },
+    {
+      "filename": "phase10_poisoning_analysis.json",
+      "size_bytes": 1725,
+      "backed_up": true
+    },
+    {
+      "filename": "phase11_manipulation_analysis.json",
+      "size_bytes": 2981,
+      "backed_up": true
+    }
+  ],
+  "files_failed": [],
+  "total_size_bytes": 1942959
+}

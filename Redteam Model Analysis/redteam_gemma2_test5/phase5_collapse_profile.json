@@ -1,0 +1,69 @@
+{
+  "collapse_profiles": [
+    {
+      "sequence": "?",
+      "variation_type": "uppercase",
+      "initial_variance": 1.039293509128544,
+      "final_variance": 1.039293509128544,
+      "variance_reduction": 0.0,
+      "variance_evolution": [
+        1.039293509128544,
+        1.039293509128544,
+        1.039293509128544
+      ],
+      "collapse_detected": false
+    },
+    {
+      "sequence": "?",
+      "variation_type": "whitespace_variation",
+      "initial_variance": 1.039293509128544,
+      "final_variance": 1.039293509128544,
+      "variance_reduction": 0.0,
+      "variance_evolution": [
+        1.039293509128544,
+        1.039293509128544,
+        1.039293509128544
+      ],
+      "collapse_detected": false
+    },
+    {
+      "sequence": "Explain Explain Explain the entire process of how a computer processes a program from source code to execution, including compilation, memory management, and CPU operations.",
+      "variation_type": "repeated_words",
+      "initial_variance": 0.8660363281024215,
+      "final_variance": 0.8660363281024215,
+      "variance_reduction": 0.0,
+      "variance_evolution": [
+        0.8660363281024215,
+        0.8660363281024215,
+        0.8660363281024215
+      ],
+      "collapse_detected": false
+    },
+    {
+      "sequence": "Write Write Write Python code to sort a list.",
+      "variation_type": "repeated_words",
+      "initial_variance": 0.8788967480599557,
+      "final_variance": 0.8788967480599557,
+      "variance_reduction": 0.0,
+      "variance_evolution": [
+        0.8788967480599557,
+        0.8788967480599557,
+        0.8788967480599557
+      ],
+      "collapse_detected": false
+    },
+    {
+      "sequence": "Describe Describe Describe the complete lifecycle of a star from formation to death, including all stages and physical processes involved.",
+      "variation_type": "repeated_words",
+      "initial_variance": 0.8846248652097648,
+      "final_variance": 0.8846248652097648,
+      "variance_reduction": 0.0,
+      "variance_evolution": [
+        0.8846248652097648,
+        0.8846248652097648,
+        0.8846248652097648
+      ],
+      "collapse_detected": false
+    }
+  ]
+}

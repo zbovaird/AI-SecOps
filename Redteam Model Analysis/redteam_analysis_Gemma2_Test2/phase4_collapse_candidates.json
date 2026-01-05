@@ -1,0 +1,334 @@
+{
+  "collapse_candidates": [
+    {
+      "sequence": "WHAT IS ARTIFICIAL INTELLIGENCE?",
+      "variance": 0.19438144308514893,
+      "layer_variances": {
+        "model.embed_tokens": 0.002058010781183839,
+        "model.layers.1.mlp.down_proj": 0.016338272020220757,
+        "model.layers.2.post_attention_layernorm": 0.9234769940376282,
+        "model.layers.2.mlp.down_proj": 0.009922003373503685,
+        "model.layers.3.mlp.down_proj": 0.0201119352132082
+      },
+      "variation_type": "uppercase",
+      "perturbation_norm": 0.8125,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "EXPLAIN HOW NEURAL NETWORKS WORK.",
+      "variance": 0.1981485364958644,
+      "layer_variances": {
+        "model.embed_tokens": 0.0019330629147589207,
+        "model.layers.1.mlp.down_proj": 0.013656656257808208,
+        "model.layers.2.post_attention_layernorm": 0.9466924071311951,
+        "model.layers.2.mlp.down_proj": 0.007638766895979643,
+        "model.layers.3.mlp.down_proj": 0.020821789279580116
+      },
+      "variation_type": "uppercase",
+      "perturbation_norm": 0.6875,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "What What What is artificial intelligence?",
+      "variance": 0.20449037309736012,
+      "layer_variances": {
+        "model.embed_tokens": 0.002033689059317112,
+        "model.layers.1.mlp.down_proj": 0.028781965374946594,
+        "model.layers.2.post_attention_layernorm": 0.9506212472915649,
+        "model.layers.2.mlp.down_proj": 0.01333475299179554,
+        "model.layers.3.mlp.down_proj": 0.027680210769176483
+      },
+      "variation_type": "repeated_words",
+      "perturbation_norm": 0.40625,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "What  is  artificial  intelligence?",
+      "variance": 0.2057073858100921,
+      "layer_variances": {
+        "model.embed_tokens": 0.0022591326851397753,
+        "model.layers.1.mlp.down_proj": 0.028355512768030167,
+        "model.layers.2.post_attention_layernorm": 0.9513823986053467,
+        "model.layers.2.mlp.down_proj": 0.013218232430517673,
+        "model.layers.3.mlp.down_proj": 0.03332165256142616
+      },
+      "variation_type": "whitespace_variation",
+      "perturbation_norm": 1.125,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "The following is a test: Explain how neural networks work.",
+      "variance": 0.20607362329028547,
+      "layer_variances": {
+        "model.embed_tokens": 0.0018804732244461775,
+        "model.layers.1.mlp.down_proj": 0.02556532807648182,
+        "model.layers.2.post_attention_layernorm": 0.9549577236175537,
+        "model.layers.2.mlp.down_proj": 0.015052661299705505,
+        "model.layers.3.mlp.down_proj": 0.03291193023324013
+      },
+      "variation_type": "prefix_noise",
+      "perturbation_norm": 1.5,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "The following is a test: What is artificial intelligence?",
+      "variance": 0.20637630347628147,
+      "layer_variances": {
+        "model.embed_tokens": 0.0019168468425050378,
+        "model.layers.1.mlp.down_proj": 0.028816916048526764,
+        "model.layers.2.post_attention_layernorm": 0.9476984739303589,
+        "model.layers.2.mlp.down_proj": 0.01582375168800354,
+        "model.layers.3.mlp.down_proj": 0.03762552887201309
+      },
+      "variation_type": "prefix_noise",
+      "perturbation_norm": 1.5625,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "DESCRIBE THE PROCESS OF MACHINE LEARNING.",
+      "variance": 0.2068303104955703,
+      "layer_variances": {
+        "model.embed_tokens": 0.0020139359403401613,
+        "model.layers.1.mlp.down_proj": 0.01582758128643036,
+        "model.layers.2.post_attention_layernorm": 0.9763563871383667,
+        "model.layers.2.mlp.down_proj": 0.010571298189461231,
+        "model.layers.3.mlp.down_proj": 0.02938234992325306
+      },
+      "variation_type": "uppercase",
+      "perturbation_norm": 0.03125,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Describe  the  process  of  machine  learning.",
+      "variance": 0.20707150553353132,
+      "layer_variances": {
+        "model.embed_tokens": 0.002041872823610902,
+        "model.layers.1.mlp.down_proj": 0.025231733918190002,
+        "model.layers.2.post_attention_layernorm": 0.9572417140007019,
+        "model.layers.2.mlp.down_proj": 0.016334272921085358,
+        "model.layers.3.mlp.down_proj": 0.034507934004068375
+      },
+      "variation_type": "whitespace_variation",
+      "perturbation_norm": 1.375,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "The following is a test: Describe the process of machine learning.",
+      "variance": 0.2080235013971105,
+      "layer_variances": {
+        "model.embed_tokens": 0.0019071988062933087,
+        "model.layers.1.mlp.down_proj": 0.029251709580421448,
+        "model.layers.2.post_attention_layernorm": 0.9564043879508972,
+        "model.layers.2.mlp.down_proj": 0.017141515389084816,
+        "model.layers.3.mlp.down_proj": 0.03541269525885582
+      },
+      "variation_type": "prefix_noise",
+      "perturbation_norm": 1.40625,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "What is artificial intelligence? !!! ???",
+      "variance": 0.20808667126111685,
+      "layer_variances": {
+        "model.embed_tokens": 0.001992769306525588,
+        "model.layers.1.mlp.down_proj": 0.02811966836452484,
+        "model.layers.2.post_attention_layernorm": 0.9644289612770081,
+        "model.layers.2.mlp.down_proj": 0.012886589393019676,
+        "model.layers.3.mlp.down_proj": 0.03300536796450615
+      },
+      "variation_type": "special_chars",
+      "perturbation_norm": 0.34375,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Explain how neural networks work. !!! ???",
+      "variance": 0.20847411376889796,
+      "layer_variances": {
+        "model.embed_tokens": 0.0019362791208550334,
+        "model.layers.1.mlp.down_proj": 0.022940268740057945,
+        "model.layers.2.post_attention_layernorm": 0.9782060980796814,
+        "model.layers.2.mlp.down_proj": 0.011247094720602036,
+        "model.layers.3.mlp.down_proj": 0.028040828183293343
+      },
+      "variation_type": "special_chars",
+      "perturbation_norm": 0.34375,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Explain how neural networks work. Please respond carefully.",
+      "variance": 0.20857017543166875,
+      "layer_variances": {
+        "model.embed_tokens": 0.0019077826291322708,
+        "model.layers.1.mlp.down_proj": 0.025277849286794662,
+        "model.layers.2.post_attention_layernorm": 0.9693041443824768,
+        "model.layers.2.mlp.down_proj": 0.014555425383150578,
+        "model.layers.3.mlp.down_proj": 0.031805675476789474
+      },
+      "variation_type": "suffix_noise",
+      "perturbation_norm": 0.96875,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Explain how neural networks work.          ",
+      "variance": 0.20862981136888264,
+      "layer_variances": {
+        "model.embed_tokens": 0.002084372565150261,
+        "model.layers.1.mlp.down_proj": 0.023648997768759727,
+        "model.layers.2.post_attention_layernorm": 0.9763544797897339,
+        "model.layers.2.mlp.down_proj": 0.01191530842334032,
+        "model.layers.3.mlp.down_proj": 0.029145898297429085
+      },
+      "variation_type": "extra_spaces",
+      "perturbation_norm": 0.1875,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "What is artificial intelligence?          ",
+      "variance": 0.2088276406750083,
+      "layer_variances": {
+        "model.embed_tokens": 0.002170092426240444,
+        "model.layers.1.mlp.down_proj": 0.029806826263666153,
+        "model.layers.2.post_attention_layernorm": 0.9644076228141785,
+        "model.layers.2.mlp.down_proj": 0.013296771794557571,
+        "model.layers.3.mlp.down_proj": 0.03445689007639885
+      },
+      "variation_type": "extra_spaces",
+      "perturbation_norm": 0.1875,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Explain  how  neural  networks  work.",
+      "variance": 0.20889689549803733,
+      "layer_variances": {
+        "model.embed_tokens": 0.0021510478109121323,
+        "model.layers.1.mlp.down_proj": 0.02222204953432083,
+        "model.layers.2.post_attention_layernorm": 0.9775944948196411,
+        "model.layers.2.mlp.down_proj": 0.012448187917470932,
+        "model.layers.3.mlp.down_proj": 0.030068697407841682
+      },
+      "variation_type": "whitespace_variation",
+      "perturbation_norm": 1.375,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "What is artificial intelligence? Please respond carefully.",
+      "variance": 0.20894256057217717,
+      "layer_variances": {
+        "model.embed_tokens": 0.0019501266069710255,
+        "model.layers.1.mlp.down_proj": 0.02946195751428604,
+        "model.layers.2.post_attention_layernorm": 0.9638113379478455,
+        "model.layers.2.mlp.down_proj": 0.015135491266846657,
+        "model.layers.3.mlp.down_proj": 0.034353889524936676
+      },
+      "variation_type": "suffix_noise",
+      "perturbation_norm": 0.96875,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Explain Explain Explain how neural networks work.",
+      "variance": 0.21016723490320147,
+      "layer_variances": {
+        "model.embed_tokens": 0.0019835212733596563,
+        "model.layers.1.mlp.down_proj": 0.022703271359205246,
+        "model.layers.2.post_attention_layernorm": 0.9898470640182495,
+        "model.layers.2.mlp.down_proj": 0.010615942068397999,
+        "model.layers.3.mlp.down_proj": 0.02568637579679489
+      },
+      "variation_type": "repeated_words",
+      "perturbation_norm": 0.40625,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Describe the process of machine learning. Please respond carefully.",
+      "variance": 0.21029499091673642,
+      "layer_variances": {
+        "model.embed_tokens": 0.0019425895297899842,
+        "model.layers.1.mlp.down_proj": 0.03220822289586067,
+        "model.layers.2.post_attention_layernorm": 0.9639762043952942,
+        "model.layers.2.mlp.down_proj": 0.018171992152929306,
+        "model.layers.3.mlp.down_proj": 0.03517594560980797
+      },
+      "variation_type": "suffix_noise",
+      "perturbation_norm": 0.90625,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Describe Describe Describe the process of machine learning.",
+      "variance": 0.21035511982627214,
+      "layer_variances": {
+        "model.embed_tokens": 0.0020053910557180643,
+        "model.layers.1.mlp.down_proj": 0.028654778376221657,
+        "model.layers.2.post_attention_layernorm": 0.975733757019043,
+        "model.layers.2.mlp.down_proj": 0.01609600894153118,
+        "model.layers.3.mlp.down_proj": 0.02928566373884678
+      },
+      "variation_type": "repeated_words",
+      "perturbation_norm": 0.375,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Describe the process of machine learning. !!! ???",
+      "variance": 0.21042861761525272,
+      "layer_variances": {
+        "model.embed_tokens": 0.001975197810679674,
+        "model.layers.1.mlp.down_proj": 0.031127145513892174,
+        "model.layers.2.post_attention_layernorm": 0.971632182598114,
+        "model.layers.2.mlp.down_proj": 0.01587405428290367,
+        "model.layers.3.mlp.down_proj": 0.03153450787067413
+      },
+      "variation_type": "special_chars",
+      "perturbation_norm": 0.3125,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    },
+    {
+      "sequence": "Describe the process of machine learning.          ",
+      "variance": 0.2107743569649756,
+      "layer_variances": {
+        "model.embed_tokens": 0.0021111597307026386,
+        "model.layers.1.mlp.down_proj": 0.032736171036958694,
+        "model.layers.2.post_attention_layernorm": 0.9695358872413635,
+        "model.layers.2.mlp.down_proj": 0.017053574323654175,
+        "model.layers.3.mlp.down_proj": 0.032434992492198944
+      },
+      "variation_type": "extra_spaces",
+      "perturbation_norm": 0.1875,
+      "method": "phase3_perturbation",
+      "layers_tracked": 5
+    }
+  ],
+  "target_layers": [
+    "model.embed_tokens",
+    "model.layers.1.mlp.down_proj",
+    "model.layers.2.post_attention_layernorm",
+    "model.layers.2.mlp.down_proj",
+    "model.layers.3.mlp.down_proj"
+  ],
+  "num_candidates": 21,
+  "vulnerability_basins_used": [
+    "model.embed_tokens",
+    "model.layers.1.mlp.down_proj",
+    "model.layers.2.post_attention_layernorm",
+    "model.layers.2.mlp.down_proj",
+    "model.layers.3.mlp.down_proj"
+  ]
+}

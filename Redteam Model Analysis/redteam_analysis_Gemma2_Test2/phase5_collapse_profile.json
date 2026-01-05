@@ -1,0 +1,90 @@
+{
+  "collapse_profiles": [
+    {
+      "sequence": "WHAT IS ARTIFICIAL INTELLIGENCE?",
+      "variation_type": "uppercase",
+      "variance_evolution": [
+        0.002058010781183839,
+        0.002058010781183839,
+        0.002058010781183839,
+        0.002058010781183839,
+        0.002058010781183839
+      ],
+      "initial_variance": 0.002058010781183839,
+      "final_variance": 0.002058010781183839,
+      "variance_reduction": 0.0,
+      "collapse_detected": false,
+      "target_layer": "model.embed_tokens"
+    },
+    {
+      "sequence": "EXPLAIN HOW NEURAL NETWORKS WORK.",
+      "variation_type": "uppercase",
+      "variance_evolution": [
+        0.0019330629147589207,
+        0.0019330629147589207,
+        0.0019330629147589207,
+        0.0019330629147589207,
+        0.0019330629147589207
+      ],
+      "initial_variance": 0.0019330629147589207,
+      "final_variance": 0.0019330629147589207,
+      "variance_reduction": 0.0,
+      "collapse_detected": false,
+      "target_layer": "model.embed_tokens"
+    },
+    {
+      "sequence": "What What What is artificial intelligence?",
+      "variation_type": "repeated_words",
+      "variance_evolution": [
+        0.002033689059317112,
+        0.002033689059317112,
+        0.002033689059317112,
+        0.002033689059317112,
+        0.002033689059317112
+      ],
+      "initial_variance": 0.002033689059317112,
+      "final_variance": 0.002033689059317112,
+      "variance_reduction": 0.0,
+      "collapse_detected": false,
+      "target_layer": "model.embed_tokens"
+    },
+    {
+      "sequence": "What  is  artificial  intelligence?",
+      "variation_type": "whitespace_variation",
+      "variance_evolution": [
+        0.0022591326851397753,
+        0.0022591326851397753,
+        0.0022591326851397753,
+        0.0022591326851397753,
+        0.0022591326851397753
+      ],
+      "initial_variance": 0.0022591326851397753,
+      "final_variance": 0.0022591326851397753,
+      "variance_reduction": 0.0,
+      "collapse_detected": false,
+      "target_layer": "model.embed_tokens"
+    },
+    {
+      "sequence": "The following is a test: Explain how neural networks work.",
+      "variation_type": "prefix_noise",
+      "variance_evolution": [
+        0.0018804732244461775,
+        0.0018804732244461775,
+        0.0018804732244461775,
+        0.0018804732244461775,
+        0.0018804732244461775
+      ],
+      "initial_variance": 0.0018804732244461775,
+      "final_variance": 0.0018804732244461775,
+      "variance_reduction": 0.0,
+      "collapse_detected": false,
+      "target_layer": "model.embed_tokens"
+    }
+  ],
+  "summary": {
+    "total_profiles": 5,
+    "collapse_detected": 0,
+    "average_initial_variance": 0.0020328737329691647,
+    "average_final_variance": 0.0020328737329691647
+  }
+}

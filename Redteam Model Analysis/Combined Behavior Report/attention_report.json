@@ -1,0 +1,18 @@
+{
+  "model_id": "google/gemma-2-2b-it",
+  "num_layers": 26,
+  "num_heads": 8,
+  "benign_analyses": [],
+  "adversarial_analyses": [],
+  "consistent_sink_positions": [],
+  "highly_attackable_heads": [],
+  "entropy_diff_by_layer": {},
+  "most_divergent_layer": null,
+  "benign_routing_stability": 0.0,
+  "adversarial_routing_stability": 0.0,
+  "notes": [
+    "Model google/gemma-2-2b-it does not return attention weights.",
+    "Attention routing analysis was skipped.",
+    "Consider using Llama, Mistral, or other models that support attention outputs."
+  ]
+}

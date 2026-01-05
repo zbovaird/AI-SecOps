@@ -1,0 +1,23 @@
+{
+  "model_id": "google/gemma-2-2b-it",
+  "timestamp": "2026-01-02T19:33:18.560230",
+  "scores": {
+    "decode_fragility": 0.48,
+    "logit_lens": 0.7615384615384615,
+    "multiturn_drift": 0.0,
+    "attention": 0.0,
+    "kv_cache": 0.35
+  },
+  "overall_score": 0.3183076923076923,
+  "capabilities": {
+    "hidden_states": true,
+    "attentions": true,
+    "kv_cache": true,
+    "chat_template": true,
+    "logits": true,
+    "num_layers": 26,
+    "num_heads": 8,
+    "hidden_size": 2304,
+    "vocab_size": 256000
+  }
+}
