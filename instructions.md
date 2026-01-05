@@ -382,6 +382,7 @@ The template includes all required sections:
 - Technical findings (Jacobian analysis, singular values)
 - Key findings and insights
 - Red team and defender recommendations
+- **Framework Complementarity Analysis** - Explains why Framework v1 (latent space) and Framework v2 (behavioral) results are complementary
 - Visual scorecards (ASCII art)
 - Risk matrices
 - Metrics reference appendix
@@ -391,6 +392,7 @@ The template includes all required sections:
 - **Always use the template** - Do not create reports from scratch
 - **Replace all placeholders** - Use `[BRACKETS]` format for placeholders
 - **Maintain structure** - Keep the same sections and formatting
+- **Include Framework Complementarity Analysis** - Always include a section explaining why Framework v1 (latent space) and Framework v2 (behavioral) results are complementary, including layer overlap analysis and combined attack strategies
 - **Include visuals** - Use ASCII art for scorecards and risk matrices
 - **Save with timestamp** - Include date/time in filename to avoid overwriting
 - **Key metrics:** Focus on κ (condition number), σ_max/σ_min (singular values), κ_comp (compositional kappa)
