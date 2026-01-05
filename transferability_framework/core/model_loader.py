@@ -195,15 +195,19 @@ class ModelLoader:
             tokenizer.pad_token = tokenizer.eos_token
         
         # Load model
+        # Use device_map="auto" for GPU (automatically handles multi-GPU), None for CPU
+        device_map = "auto" if self.device != "cpu" else None
+        
         model = AutoModelForCausalLM.from_pretrained(
             config.model_id,
             torch_dtype=self.dtype,
-            device_map=self.device if self.device != "cpu" else None,
+            device_map=device_map,
             trust_remote_code=config.trust_remote_code,
             token=self.hf_token if config.use_auth_token else None,
         )
         
-        if self.device == "cpu":
+        # Only move to CPU if explicitly requested (device_map=None already handles CPU)
+        if self.device == "cpu" and device_map is None:
             model = model.to(self.device)
         
         model.eval()
