@@ -65,6 +65,9 @@ all_modules_test_results.json
 *_results.json
 reports/
 !reports/.gitkeep
+# Exception: Allow analysis reports in framework directories
+!latent_space_framework/reports/*.md
+!redteam_framework/reports/*.md
 
 # Credential files (highly sensitive)
 *_decrypted_passwords.*
