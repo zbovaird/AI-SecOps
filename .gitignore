@@ -41,6 +41,8 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
+!Wolfram Guardrails/notebooks/*.ipynb
+!latent_space_framework/notebooks/*.ipynb
 
 # Logs
 *.log
