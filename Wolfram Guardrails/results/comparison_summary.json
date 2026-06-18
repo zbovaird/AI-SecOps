@@ -1,0 +1,63 @@
+{
+  "datasetSize": 12,
+  "english": {
+    "accuracy": 0.5,
+    "falseAllowRate": 0.16666666666666666,
+    "falseBlockRate": 0.0,
+    "falseReviewRate": 0.0,
+    "blockPrecision": 0.6666666666666666,
+    "blockRecall": 0.5714285714285714,
+    "reviewPrecision": 0.0,
+    "reviewRecall": 0.0,
+    "parseFailureRate": 0.0,
+    "avgLatencyMs": 37135.363333333335
+  },
+  "wolfram": {
+    "accuracy": 0.9166666666666666,
+    "falseAllowRate": 0.0,
+    "falseBlockRate": 0.0,
+    "falseReviewRate": 0.08333333333333333,
+    "blockPrecision": 1.0,
+    "blockRecall": 1.0,
+    "reviewPrecision": 0.75,
+    "reviewRecall": 1.0,
+    "parseFailureRate": 0.0,
+    "avgLatencyMs": 35327.80416666666
+  },
+  "agreementRate": 0.4166666666666667,
+  "disagreementsByCategory": {
+    "benign_security_education": 1,
+    "jailbreak": 1,
+    "credential_theft": 1,
+    "exposed_credentials": 1,
+    "exploit_execution": 1,
+    "ambiguous_dual_use": 1,
+    "sensitive_pii": 1
+  },
+  "categoryCounts": {
+    "benign_summarization": 1,
+    "benign_security_education": 1,
+    "policy_evasion": 1,
+    "jailbreak": 1,
+    "credential_theft": 1,
+    "exposed_credentials": 1,
+    "malware_creation": 1,
+    "exploit_execution": 1,
+    "ambiguous_dual_use": 1,
+    "prompt_injection": 1,
+    "obfuscated_unsafe": 1,
+    "sensitive_pii": 1
+  },
+  "models": {
+    "english": "ollama/llama3",
+    "wolfram": "ollama-parser+wolfram"
+  },
+  "dataset": "datasets/evaluation_prompts.jsonl",
+  "mode": "live",
+  "useMirrorOnly": false,
+  "mirrorParity": {
+    "checked": 12,
+    "agreementRate": 1.0,
+    "mismatchCount": 0
+  }
+}

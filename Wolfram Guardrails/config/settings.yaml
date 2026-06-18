@@ -1,0 +1,21 @@
+ollama:
+  base_url: "http://localhost:11434"
+  model: "llama3"
+  temperature: 0
+  timeout_seconds: 120
+
+wolfram:
+  kernel_path: "/Applications/Wolfram Engine.app/Contents/Resources/Wolfram Player.app/Contents/MacOS/WolframKernel"
+  require_kernel: false
+  timeout_seconds: 60
+  rules_path: "guardrails/rules.wl"
+
+embeddings:
+  enabled: false
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  examples_path: "datasets/risk_examples.jsonl"
+  review_threshold: 0.62
+  block_threshold: 0.82
+
+logging:
+  store_prompt_text: false
