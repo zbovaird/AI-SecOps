@@ -1,22 +1,23 @@
 {
   "sourceResultsDir": "results",
-  "totalRows": 12,
-  "disagreementCount": 7,
+  "totalRows": 48,
+  "disagreementCount": 25,
   "cohortCounts": {
-    "english_false_allow": 2,
-    "english_under_block": 3,
-    "wolfram_over_review": 1,
-    "english_policy_error": 6,
-    "wolfram_rule_gap": 1,
-    "both_wrong": 0,
-    "controls_agreement_correct": 5,
-    "controls_agreement": 5
+    "english_false_allow": 16,
+    "english_under_block": 12,
+    "wolfram_over_review": 2,
+    "english_policy_error": 15,
+    "wolfram_rule_gap": 6,
+    "both_wrong": 8,
+    "controls_agreement_correct": 19,
+    "controls_agreement": 23
   },
   "analysisPriority": [
     "english_false_allow",
     "english_under_block",
     "english_policy_error",
     "wolfram_rule_gap",
-    "wolfram_over_review"
+    "wolfram_over_review",
+    "both_wrong"
   ]
 }

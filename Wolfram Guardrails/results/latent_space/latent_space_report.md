@@ -2,21 +2,22 @@
 
 ## Context from Phase 6 Comparison
 
-- Agreement rate: **0.4166666666666667**
-- English false allow rate: **0.16666666666666666**
-- Wolfram false allow rate: **0.0**
+- Agreement rate: **0.4791666666666667**
+- English false allow rate: **0.3333333333333333**
+- Wolfram false allow rate: **0.16666666666666666**
 
 ## Exported Cohorts
 
 | Cohort | Count |
 | --- | ---: |
-| `english_false_allow` | 2 |
-| `english_under_block` | 3 |
-| `wolfram_over_review` | 1 |
-| `english_policy_error` | 6 |
-| `wolfram_rule_gap` | 1 |
-| `controls_agreement_correct` | 5 |
-| `controls_agreement` | 5 |
+| `english_false_allow` | 16 |
+| `english_under_block` | 12 |
+| `wolfram_over_review` | 2 |
+| `english_policy_error` | 15 |
+| `wolfram_rule_gap` | 6 |
+| `both_wrong` | 8 |
+| `controls_agreement_correct` | 19 |
+| `controls_agreement` | 23 |
 
 **Priority cohorts for GPU latent-space analysis:**
 
@@ -25,6 +26,7 @@
 - `english_policy_error`
 - `wolfram_rule_gap`
 - `wolfram_over_review`
+- `both_wrong`
 
 ## Local Embedding Probe
 
